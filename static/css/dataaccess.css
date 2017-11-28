@@ -17,29 +17,34 @@
 	//border: 1px solid red;
 	width: 830px;
 	margin: 0 auto;
-	margin-top: 50px
+	margin-top: 50px;
+	height: 100px
 }
 .datacaijiimg {
 	width: 100%
 }
 .dataaccess_partonefontone {
 	position: absolute;
+	top:110px;
 	font-size: 22px;
 }
 .dataaccess_partonefonttwo {
 	position: absolute;
 	font-size: 22px;
-	left: 244px
+	left: 244px;
+	top:110px;
 }
 .dataaccess_partonefontthree {
 	position: absolute;
 	font-size: 22px;
-	left: 487px
+	left: 487px;
+	top:110px;
 }
 .dataaccess_partonefontfour {
 	position: absolute;
 	font-size: 22px;
-	right: 0px
+	right: 0px;
+	top:110px;
 }
 .dataaccess_parttwo {
 	background-image: url(dataaccessmodule2bg.jpg);
@@ -148,6 +153,30 @@
 	text-align: center;
 	margin-top: 60px
 }
+.dataaccess_partthreewaibg1 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(236,59,60,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px;
+}
+.dataaccess_partthreewaibg2 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(237,124,21,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px
+}
+.dataaccess_partthreewaibg3 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(250,159,15,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px
+}
 .dataaccess_partfourfont {
 	text-align: center;
 	font-size: 36px;
@@ -217,4 +246,136 @@
 }
 .pichoodp {
 	width: 70%
+}
+
+.dataaccess_partoneimgwrappic1 {
+	position: absolute;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border:1px solid #7a69e5;
+	background-color: #7a69e5;
+	box-shadow: 0 15px 30px 0 rgba(122,105,119,0.3);
+	border-radius: 18px
+}
+.dataaccess_partoneimgwrappic2 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border:1px solid #ee5c5d;
+	background-color: #ee5c5d;
+	box-shadow: 0 15px 30px 0 rgba(238,92,93,0.3);
+	border-radius: 18px;
+	left: 237px
+
+}
+.dataaccess_partoneimgwrappic3 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border:1px solid #44b4f8;
+	background-color: #44b4f8;
+	box-shadow: 0 15px 30px 0 rgba(68,180,248,0.3);
+	border-radius: 18px;
+	left: 477px
+}
+.dataaccess_partoneimgwrappic4 {
+	position: absolute;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	border:1px solid #68ecda;
+	background-color: #68ecda;
+	box-shadow: 0 15px 30px 0 rgba(104,236,218,0.3);
+	border-radius: 18px;
+}
+.dataaccess_partoneimgwrappic5 {
+	position: absolute;
+	left: 105px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic6 {
+	position: absolute;
+	left: 350px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic7 {
+	position: absolute;
+	left: 592px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic5duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(122,105,229,.1), rgba(139,103,210,.1));
+}
+.dataaccess_partoneimgwrappic5chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(158,101,187,.1), rgba(238,92,93,.1)); 
+}
+.dataaccess_partoneimgwrappic6duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(238,92,93,.1), rgba(199,112,128,.1));
+}
+.dataaccess_partoneimgwrappic6chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(168,128,156,.1), rgba(68,180,248,.1)); 
+}
+.dataaccess_partoneimgwrappic7duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(68,180,248,.1), rgba(85,206,234,.1));
+}
+.dataaccess_partoneimgwrappic7chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(92,217,228,.1), rgba(104,236,218,.1)); 
 }
