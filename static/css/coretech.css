@@ -204,7 +204,8 @@
 	.core_datasource {
 		text-align: center;
 		font-size: 24px;
-		color: #a6a7a9
+		color: #a6a7a9;
+		margin-bottom: 60px
 	}
 	.core_pic {
 		width: 33%;
@@ -272,18 +273,6 @@
 		left: 46%;
 		width: 10%
 	}
-	.core_caijifont {
-		position: absolute;
-		text-decoration: none;
-		top:174px;
-		left: 190px;
-		font-size: 30px;	
-		color: white;
-		text-align: center;
-		width: 145px;
-
-	}
-
 	.coretech_parttwo {
 		background-image: url(module2bg.png);
 		background-size: cover;
@@ -400,16 +389,11 @@
 		color: white;
 		text-decoration: none
 	}
-	/*.keshihuafont:hover{
-        box-shadow: 2px 4px 6px #000;
-	}*/
 	.coretech_wrap {
 		position: relative;
 		width: 840px;
 		margin: 0 auto;
-		//border: 1px solid red;
 		margin: 0 auto;
-		margin-top:60px;
 	}
 	.coretech_partonefontwrap1 {
 		position: absolute;
@@ -450,4 +434,96 @@
 	.coretech_partthreefont4box {
 		height: 20px;
 		width: 117px;
+	}
+	#coretech_partonefontwrap4dt {
+		position: absolute;
+		width: 184px;
+		height: 184px;
+		border-radius: 92px;
+		top:113px;
+		left: 167px;
+		background-color: #227af7;
+		box-shadow: 0 15px 30px 0 rgba(34，122，247,0.6);
+	}
+	#core_caijifont {
+		z-index: 1000;
+		position: absolute;		
+		top:168px;
+		left:187px;
+		font-size: 30px;		
+		text-align: center;
+		width: 145px;
+
+	}
+	.core_caijifontdata {
+		text-decoration: none;
+		color: white;
+		font-size: 30px
+	}
+	#core_caijifont:hover + #coretech_partonefontwrap4dt{
+		position: absolute;
+		width: 184px;
+		height: 184px;
+		border-radius: 92px;
+		top:113px;
+		left: 167px;
+		background-color : #1a60c3
+	}
+	#coretech_partonefontwrap4dtrg {
+		position: absolute;
+    	width: 184px;
+    	height: 184px;
+    	border-radius: 92px;
+    	top: -66px;
+    	left: -36px;
+    	background-color: white;
+	}
+	#core_caijifontrg {
+		position: absolute;
+		top:10px;
+		z-index: 1000;
+		text-decoration: none;
+		color: black;
+		width: 184px
+	}
+	#core_caijifontrg:hover + #coretech_partonefontwrap4dtrg{
+		position: absolute;
+    	width: 184px;
+    	height: 184px;
+    	border-radius: 92px;
+    	top: -66px;
+    	left: -36px;
+    	background-color: #d3d3d3;
+	}
+	#coretech_partonefontwrap4dtkeshihua {
+		position: absolute;
+		width: 126px;
+		height: 126px;
+		border-radius: 63px;
+		top:-23px;
+		left: -6px;
+		background-color: #227af7;
+	}
+	#core_caijifontke {
+		z-index: 1000;
+		position: absolute;		
+		top:9px;
+		left:-2px;
+		font-size: 30px;		
+		text-align: center;
+		width: 118px;
+	}
+	.core_caijifontdatakeshihua {
+		text-decoration: none;
+		color: white;
+		font-size: 30px
+	}
+	#core_caijifontke:hover + #coretech_partonefontwrap4dtkeshihua{
+		position: absolute;
+		width: 126px;
+		height: 126px;
+		border-radius: 63px;
+		top:-23px;
+		left: -6px;
+		background-color: #1a60c3;
 	}
