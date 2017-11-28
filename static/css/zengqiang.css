@@ -191,3 +191,10 @@
     top: 197px;
     right: -20px;
 }
+.zengqiangpart2touimg1 {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.1);
+}
