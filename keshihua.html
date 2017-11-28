@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stratifyd</title>
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/coretech.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/keshihua.css'>	
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('coretechchange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfont{
+			font-family: "ProductSans"
+		}
+	</style>
+</head>
+<body>
+	<div class="wholePage">
+		<div class="keshihuaheader">
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id="coretechchange"><img src='static/imgs/logo.png'  id='companyimg'/></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="stratifydfont">Stratifyd</div>
+				<div class="platformfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</div>
+				<div type="button" >
+					<div class="coretechstartButton"><a href="https://alpha.stratifyd.cn"
+						class="coretechmainButton">开始试用</a>
+					<div class='anotherbutton' ></div>
+				</div>	
+				</div>				
+			</div>
+		</div>
+		<div class="body">
+			<div class="keshihua_partone">	
+				<div class="keshihua_partonefont1">BI商业智能，多维分析和报表展现</div>
+				<div class="keshihua_partoneimgWrap">
+					<div class="keshihua_partoneimgWrap1">
+						<div>
+							<img src='static/imgs/kelogo1.jpg'/>
+						</div>
+						<div>智能报表生成</div>						
+					</div>
+					<div class="keshihua_partoneimgWrap1">
+						<div>
+							<img src='static/imgs/kelogo2.jpg'/>
+						</div>
+						<div>丰富场景模版</div>						
+					</div>
+					<div class="keshihua_partoneimgWrap1">
+						<div>
+							<img src='static/imgs/kelogo3.jpg'/>
+						</div>
+						<div>跨部门分享</div>						
+					</div>
+					<div class="keshihua_partoneimgWrap1">
+						<div>
+							<img src='static/imgs/kelogo4.jpg'/>
+						</div>
+						<div>安全数据权限</div>						
+					</div>
+					<div class="keshihua_partoneimgWrap5">
+						<div>
+							<img src='static/imgs/kelogo6.jpg'/>
+						</div>
+						<div>灵活部署方式</div>						
+					</div>
+					<div class="clear"></div>
+				</div>		
+			</div>
+			<div class='keshihua_parttwo'>
+				<div class="keshihua_parttwofont1">灵活易用的可视化界面，让数据和你阐述问题根源</div>
+				<div class="keshihua_parttwoimgwrap">
+					<div class="keshihua_parttwoimgwrap1">
+						<div class="keshihua_parttwoimgwrap1ling">
+							<img src='static/imgs/ling1.jpg'/>
+						</div>
+						<div class="keshihua_parttwoimgwrap1font">强大、多维度的可视化界面，帮助识别事件走势和异常情况。</div>
+					</div>
+					<div class="keshihua_parttwoimgwrap2">
+						<div class="keshihua_parttwoimgwrap1ling">
+							<img src='static/imgs/ling2.jpg'/>
+						</div>
+						<div class="keshihua_parttwoimgwrap1font">在一个界面上灵活地探索数据全貌，轻松将数据分析提升到更高的层次。</div>
+					</div>
+					<div class="keshihua_parttwoimgwrap3">
+						<div class="keshihua_parttwoimgwrap1ling">
+							<img src='static/imgs/ling3.jpg'/>
+						</div>
+						<div class="keshihua_parttwoimgwrap1font">其简易直观、快速交互的自助界面降低用户使用门槛。</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="keshihua_parythree">
+				<div class="keshihua_parythreefont">洞察大数据之美</div>
+				<div class="keshihua_parythreeimgwrap">
+					<div class="keshihua_parythreeimgwrap1">
+						<div class="keshihua_parythreeimgwrap1dongcha">
+							<img src='static/imgs/dongcha1.jpg'/>
+						</div>
+						<div class="keshihua_parythreeimgwrap1jiandan">简单易用，轻松上手</div>
+						<div class="keshihua_parythreeimgwrap1caiyong">采用UI深度优化，极简UI设计让操作简单易懂，配备的操作指引，更是让任何人都能开展自助式数据分析。</div>
+					</div>
+					<div class="keshihua_parythreeimgwrap2">
+						<div class="keshihua_parythreeimgwrap1dongcha">
+							<img src='static/imgs/dongcha2.jpg'/>
+						</div>
+						<div class="keshihua_parythreeimgwrap1jiandan">丰富图表，多维视角</div>
+						<div class="keshihua_parythreeimgwrap1caiyong">内置柱状图、线图、饼图、雷达图、散点图等10多种可视化图表，可针对多个维度对数据进行分析。</div>
+
+					</div>
+					<div class="keshihua_parythreeimgwrap3">
+						<div class="keshihua_parythreeimgwrap1dongcha">
+							<img src='static/imgs/dongcha3.jpg'/>
+						</div>
+						<div class="keshihua_parythreeimgwrap1jiandan">复杂报表，轻松搞定</div>
+						<div class="keshihua_parythreeimgwrap1caiyong">能够快速构建复杂报表，并实现报表间的联动和报表透视钻取，大大加快工作效率。</div>
+					</div>
+					<div class="clear"></div>				
+				</div>
+				<div class="keshihua_parythreeimgwrapanother">
+					<div class="keshihua_parythreeimgwrapanother1">
+						<div class="keshihua_parythreeimgwrap1dongcha">
+							<img src='static/imgs/dongcha4.jpg'/>
+						</div>
+						<div class="keshihua_parythreeimgwrap1jiandan">智能加速，海量分析</div>
+						<div class="keshihua_parythreeimgwrap1caiyong">内置智能加速引擎，速度超快，支持海量大数据分析。</div>
+						
+					</div>
+					<div class="keshihua_parythreeimgwrapanother2">
+						<div class="keshihua_parythreeimgwrap1dongcha">
+							<img src='static/imgs/dongcha5.jpg'/>
+						</div>
+						<div class="keshihua_parythreeimgwrap1jiandan">灵活布局，快速响应</div>
+						<div class="keshihua_parythreeimgwrap1caiyong">支持多个报表在页面上灵活布局，自由组合，一目了
+然，快速响应用户需求。</div>
+					</div>
+					<div class="clear"></div>
+					
+				</div>
+			</div>		
+		</div>
+		<div class="footernew">
+			<div class="footernewwrap">
+				<div class="footernewwrap1">
+					<img src='static/imgs/footerpng.png' class="footerimg" />
+				</div>
+				<div class="footernewwrap2">
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>	
+				</div>
+				<div class="footernewwrap3">
+					<div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="footernewwrap4">
+					<img src='static/imgs/weipng.png' class="xinpic"/>
+				</div>
+				<div class="footernewwrap5">
+					<img src='static/imgs/xinpng.png' class="xinpic"/>
+				</div>
+				<div class="clear"></div>
+
+			</div>
+			<div class="footernewwrapanother">
+					<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

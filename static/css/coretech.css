@@ -1,0 +1,454 @@
+
+.coretechheader{
+	background-image: url(coretechbg.jpg);
+	background-size: cover;
+	background-color: #004dc6;
+	background-position: center;
+}
+
+.coretechstartButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	border: 0.5px solid white;
+	margin: 0 auto;
+
+}
+.coretechmainButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	margin: 0 auto;
+}
+.coretech_font{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 90px;
+}
+.coretechimgwrap{
+	margin-top: 90px;
+	padding-bottom: 50px
+}
+.coretechimg{
+	width: 100%
+}
+.zhinengweidu{
+	background-color: #227af7;
+}
+.coretech_zhinengfont{
+	font-size: 36px;
+	text-align: center;
+	padding-top: 92px;
+	color: white
+
+}
+.coretech_rengongfont{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 92px
+}
+.rengongzhimengimgWrap{
+	width: 100%;
+	margin-top: 92px;
+	margin-bottom: 92px
+}
+.rengongzhinengpicone{
+	float: left;
+	width: 20%;
+	margin-left: 15%;
+}
+.rengongzhinengpictwo{
+	float: left;
+	width: 20%
+}
+.rengongzhinengpicthree{
+	float: left;
+	width: 20%
+}
+.rengongzhinengpicfour{
+	float: left;
+	width: 20%
+}
+.rengongimg{
+	width: 80%
+}
+.fenxijiegou{
+	margin-top: -5px;
+	text-align: center;
+	background: #227af7;
+	border:1px solid #227af7;
+	width: 79%;
+	color:white;
+	height: 60px;
+	font-size: 22px;
+	line-height: 22px;
+}
+.fenxijiegoufont{
+	margin-top: 18px;
+	font-size: 20px
+}
+.core_dongwrap{
+	width: 82%;
+	margin: 0 auto;
+	margin-left: 20%
+}
+.core_dongone{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}
+.core_dongtwo{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}
+.core_dongthree{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}
+
+
+
+.tab-h2 {
+	font-size:28px;
+	}
+	.tab-p {
+	font-size: 17px;
+	}
+	.coretech_header{
+	background: url(banner1366.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:0px;
+	padding-bottom:100%;
+	background-position: center;
+	background-color: #0460cb
+	}
+	.font1920 {
+		font-size: 24px;
+		color: white !important;
+		margin-top: 3%
+	}
+	.corestratifydfont{
+		font-size: 90px;
+		color: white;
+		text-align: center;
+		margin-top: 212px	
+	}
+	.corestratifydfontquanqiu{
+		color: white;
+		text-align: center;
+	}
+	.fontdefault {
+		font-size:36px;
+		margin-top: 28px
+	}
+	.coretechstartButtonWrap {
+		text-decoration:none;
+		text-align: center;
+		font-size: 30px;
+		width: 240px;
+		height: 50px;
+		border: 2px solid white;
+		margin: 0 auto;
+		margin-top:58px;
+	}
+	.coretechmainShiyongButton {		
+		color: white;	
+	}
+	/*.coretechstartButtonWrap a:hover {
+		color: white;
+		text-decoration:none;
+	}*/
+	.coretechmainShiyongButton {		
+		color: white;	
+	}
+	.coretechstartButtonWrap a:hover {
+		color: white;
+		text-decoration:none;
+	}
+	.coretech_aboutus {
+		color: white;
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 30px
+	}
+	.coretech_rest {
+		color: #8d9199;
+		font-size: 16px;
+		line-height: 16px;
+		margin-bottom: 14px
+
+	}
+	.weichatimgphone{
+	width: 100%
+	}
+	.core_data {
+		text-align: center;
+		font-size: 36px;
+		margin-top: 110px;
+		font-size: #5e5f5f
+	}
+	.core_datasource {
+		text-align: center;
+		font-size: 24px;
+		color: #a6a7a9
+	}
+	.core_pic {
+		width: 33%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.core_neiwangwrap {
+		position: absolute;
+		top:60%;
+		left: 6%;
+		width: 33%
+	}
+	.core_neiwangfont {
+		font-size: 26px;
+		color: #414142;
+		margin-bottom: 24px;
+		line-height: 26px
+	}
+	.core_neiwangemail {
+		font-size: 20px;
+		color: #a6a7a9;
+		line-height: 26px
+	}
+
+	.core_waiwangwrap {
+		width: 33%;
+		position: absolute;
+		top:92%;
+		right:-1%;
+	}
+	.core_waiwangfont {
+		font-size: 26px;
+		color: #414142;
+		margin-bottom: 24px;
+		line-height: 26px
+	}
+	.core_waiwangemail {
+		font-size: 20px;
+		color: #a6a7a9;
+		line-height: 26px
+	}
+	.coretech_partone {
+		position: relative;
+		margin-bottom: 197px
+	}
+	.core_disanfangwrap {
+		position: absolute;
+		top:32%;
+		right: 18%
+	}
+	.core_disanfangfont {
+		font-size: 26px;
+		color: #414142;
+		margin-bottom: 24px;
+		line-height: 26px
+	}
+	.core_disanfangemail {
+		font-size: 20px;
+		color: #a6a7a9;
+		line-height: 20px
+	}
+	.core_caijinengluWrap {
+		position: absolute;
+		top:55%;
+		left: 46%;
+		width: 10%
+	}
+	.core_caijifont {
+		position: absolute;
+		text-decoration: none;
+		top:174px;
+		left: 190px;
+		font-size: 30px;
+		color: white;
+		text-align: center;
+		width: 145px;
+
+	}
+
+
+	.coretech_parttwo {
+		background-image: url(module2bg.png);
+		background-size: cover;
+		//background: url(1366module2bg.png) no-repeat center center fixed;
+		height: 840px;
+		background-color: #062367;
+		background-position: center;
+	}
+	.coretech_parttwofont {
+		font-size: 36px;
+		text-align: center;
+		color: white;
+		padding-top: 110px
+	}
+
+	.coretech_parttwoiconwrap{
+		width: 473px;
+		margin: 0 auto;
+		//border: 1px solid white;
+		position: relative;
+		margin-top: 60px
+	}
+	.coretech_partthreeiconwrap {
+		text-align: center;
+		//width: 700px;
+		width: 840px;
+		margin: 0 auto;
+		//border: 1px solid red;
+		position: relative;
+		margin-top: 60px;
+		margin-bottom: 115px
+	}
+	.coretech_parttwofont1 {
+		position: absolute;
+		color: white;
+		top:16%;
+		left: 41%;
+		font-size: 16px
+	}
+	.coretech_parttwofont2 {
+		position: absolute;
+		color: white;
+		font-size: 16px;
+		top: 58%;
+    	left: -14px;
+	}
+	.coretech_parttwofont3 {
+		position: absolute;
+		color: white;
+		font-size: 16px;
+		top:58%;
+		right: 7px
+	}
+	.coretech_parttwofont4 {
+		position: absolute;
+		color: white;
+		font-size: 16px;
+		left: 37%;
+		bottom: -8%
+	}
+	.coretech_parttwofont5 {
+		position: absolute;
+		color:#01296d;
+		font-size: 28px;
+		top:46%;
+		left: 36%;
+		
+	}
+	.rengongfont {
+		text-decoration: none;
+		color: #01296d;
+	}
+
+	.coretech_partthreefont {
+		font-size: 36px;
+		text-align: center;
+		padding-top: 110px
+	}
+	.shujupic {
+		width: 100%
+	}
+	.mode3pic {
+		width: 100%
+	}
+	.coretech_partthreefont1 {
+		position: absolute;
+		font-size: 28px;
+		top:63px;
+	}
+	.coretech_partthreefont2 {
+		position: absolute;
+		font-size: 28px;
+		top:300px;
+		left:-2px;
+	}
+	.coretech_partthreefont3 {
+		text-align: left;
+    	width: 179px;
+    	position: absolute;
+    	font-size: 28px;
+    	top: 115px;
+    	right: -13px;
+	}
+	.coretech_partthreefont4 {
+		position: absolute;
+    	top: 152px;
+    	left: 386px;
+    	font-size: 30px;
+    	color: white;
+    	text-align: center;
+    	width: 119px;
+	}
+	.keshihuafont {
+		color: white;
+		text-decoration: none
+	}
+	/*.keshihuafont:hover{
+        box-shadow: 2px 4px 6px #000;
+	}*/
+	.coretech_wrap {
+		position: relative;
+		width: 840px;
+		margin: 0 auto;
+		//border: 1px solid red;
+		margin: 0 auto;
+		margin-top:60px;
+	}
+	.coretech_partonefontwrap1 {
+		position: absolute;
+		top:175px;
+		left:27px;
+		width: 22%
+	}
+	.coretech_partonefontwrap2 {
+		position: absolute;
+		width: 22%;
+		top:80px;
+		right:0;
+	}
+	.coretech_partonefontwrap3 {
+		position: absolute;
+		width: 220px;
+		bottom: -74px;
+		right: 45px
+	}
+	.coretech_partonefontwrap4 {
+		position: absolute;
+		width: 220px;
+		bottom: 390px;
+		right: 447px
+	}
+
+	.coretech_img1 {
+		text-align: center;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.coretech_partthreeiconwrapimg1 {
+		width: 100%;
+		margin: 0 auto;
+		//border: 1px solid black
+	}
+	.coretech_partthreefont4box {
+		height: 20px;
+		width: 117px;
+	}

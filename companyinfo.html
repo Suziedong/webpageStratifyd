@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stratifyd</title>
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/companyinfo.css'>	
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('companyinfochange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfont{
+			font-family: "ProductSans"
+		}
+	</style>
+</head>
+<body>
+	<div class="wholePage">
+		<div class="companyinfoheader">
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id='companyinfochange'><img src='static/imgs/logo.png'  id='companyimg'/></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="stratifydfont">Stratifyd</div>
+				<div class="platformfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</div>
+				<div type="button" >
+					<div class="startButton"><a href="https://alpha.stratifyd.cn"
+						class="mainButton">开始试用</a>
+					<div class='anotherbutton' ></div>
+				</div>
+					
+				</div>				
+			</div>
+		</div>
+		<div class="body">
+			<div class="gongsijianjie">
+				<div class="con_companyintro">公司简介</div>
+				<div class="con_companycontent">
+					<div class="wordline"> Stratifyd,Inc，成立于2014年，是数据科学和大数据分析行业的先驱者。在互联网+ 信息高速发展时代，Stratifyd AI大数据分析平台可帮助企业收集整理内外部数据，通过人机交互智能系统自助分析，迅速捕获市场动态，了解竞争对手情况和行业走势，掌握用户画像，改进产品不足，调整营销策略，以及提升销售业绩。Stratifyd,Inc.在2016年达到了300%的增长速度，预测在2017将达到至少500%的增长。目前Stratifyd,Inc.已完成了A轮融资，由腾讯领投。</div>
+				</div>	
+			</div>
+			<div class="jisufazhan">
+				<div class="jisufazhanintro">极速发展的 Stratifyd</div>
+				<!-- <div class="timediv">
+					<img src='static/imgs/time.jpg' class='time'/>
+				</div> -->
+				<!-- <div class="timelineWrap">
+					<div class="time-verticaldiv"></div>
+					<div class="timeline1">
+						<div class= "timeline1font0">
+							<div><br></br></div>
+							<div class="timeline1font101">2014年03月</div>
+							<div class="timeline1font201">2014年12月</div>
+							<div class="timeline1font301">2015年04月</div>
+							<div class="timeline1font401">2015年06月</div>
+							<div class="timeline1font501">2015年10月</div>
+							<div class="timeline1font601">2016年01月</div>
+							<div class="timeline1font701">2016年04月</div>
+							<div class="timeline1font801">2016年05月</div>
+							<div class="timeline1font901">2016年07月</div>
+							<div class="timeline1font1001">2016年09月</div>
+							<div class="timeline1font1101">2016年10月</div>
+							<div class="timeline1font1201">2017年01月</div>
+							<div class="timeline1font1301">2017年02月</div>
+							<div class="timeline1font1401">2017年04月</div>
+							<div class="timeline1font1501">2017年08月</div> 
+						</div>
+						<div class= "timeline1font2">
+							<img src='static/imgs/timenew1.jpg'/>
+						</div>
+						<div class= "timeline1font3">
+							<div class="timeline1font10">2014年3月同美国DHS国家安全局做大数据民用项目同时支持美国军方socom做分析研究系统</div>
+							<div class="timeline1font20">2014年12月获得清华企业家协会第一笔投资</div>
+							<div class="timeline1font30">2015年4月Stratifyd1.0正式上线</div>
+							<div class="timeline1font40">2015年6月美国联想全球分析部门成为公司第一个签约客户</div>
+							<div class="timeline1font50">2015年10月和全球最大在线金融机构ALly银行签约</div>
+							<div class="timeline1font60">
+								2016年1月真格基金领投Pre-A轮
+							</div>
+							<div class="timeline1font70">2016年4月美国销售事业部正式组建成立</div>
+							<div class="timeline1font80">2016年5月公司第一个专利被美国政府批准</div>
+							<div class="timeline1font90">
+								2016年7月Stratifyd2.0上线
+							</div>
+							<div class="timeline1font100">
+								2016年9月大量世界500强企业签约Stratifyd
+							</div>
+							<div class="timeline1font110">2016年10月微软公司签约Stratifyd</div>
+							<div class="timeline1font120">2017年1月Stratifyd中国成立，正式服务中国市场</div>
+							<div class="timeline1font130">2017年2月KCC签约stratifyd</div>
+							<div class="timeline1font140">2017年4月腾讯领投A轮</div>
+							<div class="timeline1font150">2017年8月Stratifyd3.0正式发布</div>
+						</div>
+						<div class='clear'></div>
+					</div>
+				</div> -->
+				<div class="timelineWrap">
+					<table border="0" class="timelinetable">
+					<tr class="timelinetr" id="time-vertical">
+					  <td class="timelinetr1 timeline1font101">2014年03月</td>
+					  <td class="timelinetr2">
+					  	<div class="timelineyuan timelineyuan1">
+					  		<img src='static/imgs/201403.png'/>
+					  	</div>
+					</td>
+					  <td class="timelinetr3 timeline1font10">2014年3月同美国DHS国家安全局做大数据民用项目同时支持美国军方socom做分析研究系统</td>
+					</tr>
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font201">2014年12月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan2">
+					  		<img src='static/imgs/2014032.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font20">2014年12月获得清华企业家协会第一笔投资</td>
+					</tr>
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font301">2015年04月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan3">
+					  		<img src='static/imgs/2014033.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font30">2015年4月Stratifyd1.0正式上线</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font401">2015年06月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan4">
+					  		<img src='static/imgs/2014034.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font40">2015年6月美国联想全球分析部门成为公司第一个签约客户</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font501">2015年10月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan5">
+					  		<img src='static/imgs/2014035.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font50">2015年10月和全球最大在线金融机构ALly银行签约</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font601">2016年01月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan6">
+					  		<img src='static/imgs/2014036.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font60">2016年1月真格基金领投Pre-A轮</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font701">2016年04月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan7">
+					  		<img src='static/imgs/2014037.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font70">2016年4月美国销售事业部正式组建成立</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font801">2016年05月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan8">
+					  		<img src='static/imgs/2014038.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font80">2016年5月公司第一个专利被美国政府批准</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font901">2016年07月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan9">
+					  		<img src='static/imgs/2014039.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font90">2016年7月Stratifyd2.0上线</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1001">2016年09月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan10">
+					  		<img src='static/imgs/20140310.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font100">2016年9月大量世界500强企业签约Stratifyd</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1101">2016年10月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan11">
+					  		<img src='static/imgs/20140311.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font110">2016年10月微软公司签约Stratifyd</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1201">2017年01月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan12">
+					  		<img src='static/imgs/20140312.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font120">2017年1月Stratifyd中国成立，正式服务中国市场</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1301">2017年02月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan13">
+					  		<img src='static/imgs/20140313.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font130">2017年2月KCC签约stratifyd</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1401">2017年04月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan14">
+					  		<img src='static/imgs/20140314.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font140">2017年4月腾讯领投A轮</td>
+					</tr>
+
+					<tr class="timelinetr">
+					  <td class="timelinetr1 timeline1font1501">2017年08月</td>
+					  <td>
+					  	<div class="timelineyuan timelineyuan15">
+					  		<img src='static/imgs/20140315.png'/>
+					  	</div>
+					  </td>
+					  <td class="timelinetr3 timeline1font150">2017年8月Stratifyd3.0正式发布</td>
+					</tr>
+
+					</table>
+					<div class="timelineborder"></div>
+					
+				</div>
+			</div>
+			<div class="gongsiguanliceng">
+				<div class='gongsiguanlicenginfo'> 公司管理层</div>
+				<div class="gongsipart1">
+					<div class="gongsipart1per1">
+						<div >
+							<img src="static/imgs/person - 1.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">汪晓宇(Derek) 
+							</div>
+							<div class="gongsipart1fontdaxiao11">创始人兼CEO</div>
+						</div>
+					</div>
+					<div class="gongsipart1per2">
+						<div >
+							<img src="static/imgs/person - 2.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">俞立  </div>
+							<div class="gongsipart1fontdaxiao11">数据分析副总</div>
+						</div>
+					</div>
+					<div class="gongsipart1per3">
+						<div >
+							<img src="static/imgs/person - 4.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">郭洵  </div>
+							<div class="gongsipart1fontdaxiao11">运营副总</div>
+						</div>
+					</div>
+					<div class="gongsipart1per4">
+						<div >
+							<img src="static/imgs/person - 3.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">马铭  </div>
+							<div class="gongsipart1fontdaxiao11">产品副总</div>
+						</div>
+					</div>
+				</div>
+				<div class="gongsipart2">
+					<div class="gongsipart1per5">
+						<div >
+							<img src="static/imgs/person - 5.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">Thomas Kraft 
+							</div>
+							<div class="gongsipart1fontdaxiao11">工程副总</div>
+						</div>
+					</div>
+					<div class="gongsipart1per6">
+						<div >
+							<img src="static/imgs/person - 6.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">Brad Fleeman 
+							</div>
+							<div class="gongsipart1fontdaxiao11">全球销售副总</div>
+						</div>
+					</div>
+					<div class="gongsipart1per7">
+						<div >
+							<img src="static/imgs/person - 7.png" class="guanliimg"/>
+						</div>
+						<div class="gongsipart1fontborder">
+							<div class="gongsipart1fontdaxiao">Kevi O’Dell 
+							</div>
+							<div class="gongsipart1fontdaxiao11">项目副总</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="hezuohuoban">
+				<div class="huzuohuobaninfo">合作伙伴</div>
+				<div class="clientTrustLogoGroup">
+					<div class="clientTrustLogoGroupFirst">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap firstBorder"><img src='static/imgs/logo1.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo2.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo3.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo14.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder lastBorder"><img src='static/imgs/logo8.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+					</div>
+					<div class="clientTrustLogoGroupSecond">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap firstBorder"><img src='static/imgs/logo7.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo5.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo12.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo10.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder lastBorder"><img src='static/imgs/logo4.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+						
+					</div>
+					<div class="clientTrustLogoGroupThird">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap thirdBorder"><img src='static/imgs/logo11.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo13.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo6.png' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo9.png' class="clientTrustLogoGroupFirstimg" /></div>
+						
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+					<div class="footernew">
+			<div class="footernewwrap">
+				<div class="footernewwrap1">
+					<img src='static/imgs/footerpng.png' class="footerimg" />
+				</div>
+				<div class="footernewwrap2">
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>	
+				</div>
+				<div class="footernewwrap3">
+					<div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="footernewwrap4">
+					<img src='static/imgs/weipng.png' class="xinpic"/>
+				</div>
+				<div class="footernewwrap5">
+					<img src='static/imgs/xinpng.png' class="xinpic"/>
+				</div>
+				<div class="clear"></div>
+
+			</div>
+			<div class="footernewwrapanother">
+					<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+			</div>
+			
+		</div>
+	</div>
+	
+</body>
+</html>
