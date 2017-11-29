@@ -12,8 +12,8 @@
 	color: white;
 	font-size: 30px;
 	width: 240px;
-	height: 43px;
-	border: 0.5px solid white;
+	height: 47px;
+	border: 1px solid white;
 	margin: 0 auto;
 
 }
@@ -219,13 +219,13 @@
 		width: 33%
 	}
 	.core_neiwangfont {
-		font-size: 26px;
+		font-size: 24px;
 		color: #414142;
-		margin-bottom: 24px;
+		margin-bottom: 18px;
 		line-height: 26px
 	}
 	.core_neiwangemail {
-		font-size: 20px;
+		font-size: 18px;
 		color: #a6a7a9;
 		line-height: 26px
 	}
@@ -237,13 +237,13 @@
 		right:-1%;
 	}
 	.core_waiwangfont {
-		font-size: 26px;
+		font-size: 24px;
 		color: #414142;
-		margin-bottom: 24px;
+		margin-bottom: 18px;
 		line-height: 26px
 	}
 	.core_waiwangemail {
-		font-size: 20px;
+		font-size: 18px;
 		color: #a6a7a9;
 		line-height: 26px
 	}
@@ -257,13 +257,13 @@
 		right: 18%
 	}
 	.core_disanfangfont {
-		font-size: 26px;
+		font-size: 24px;
 		color: #414142;
-		margin-bottom: 24px;
+		margin-bottom: 18px;
 		line-height: 26px
 	}
 	.core_disanfangemail {
-		font-size: 20px;
+		font-size: 18px;
 		color: #a6a7a9;
 		line-height: 20px
 	}
@@ -344,6 +344,7 @@
 	.rengongfont {
 		text-decoration: none;
 		color: #01296d;
+		font-size: 28px
 	}
 
 	.coretech_partthreefont {
@@ -359,22 +360,22 @@
 	}
 	.coretech_partthreefont1 {
 		position: absolute;
-		font-size: 24px;
-		top:63px;
+		font-size: 22px;
+		top:75px;
 	}
 	.coretech_partthreefont2 {
 		position: absolute;
-		font-size: 24px;
-		top:290px;
-		left:-2px;
+		font-size: 22px;
+		top:284px;
+		left:10px;
 	}
 	.coretech_partthreefont3 {
 		text-align: left;
     	width: 179px;
     	position: absolute;
-    	font-size: 24px;
+    	font-size: 22px;
     	top: 115px;
-    	right: -28px;
+    	right: -44px;
 	}
 	.coretech_partthreefont4 {
 		position: absolute;
@@ -449,16 +450,16 @@
 		z-index: 1000;
 		position: absolute;		
 		top:172px;
-		left: 190px;
+		left: 194px;
 		font-size: 30px;		
 		text-align: center;
-		width: 145px;
+		width: 138px;
 
 	}
 	.core_caijifontdata {
 		text-decoration: none;
 		color: white;
-		font-size: 30px
+		font-size: 28px
 	}
 	#core_caijifont:hover + #coretech_partonefontwrap4dt{
 		position: absolute;
@@ -471,11 +472,11 @@
 	}
 	#coretech_partonefontwrap4dtrg {
 		position: absolute;
-    	width: 184px;
-    	height: 184px;
-    	border-radius: 92px;
-    	top: -66px;
-    	left: -36px;
+    	width: 150px;
+    	height: 150px;
+    	border-radius: 75px;
+    	top: -48px;
+    	left: -17px;
     	background-color: white;
 	}
 	#core_caijifontrg {
@@ -488,11 +489,11 @@
 	}
 	#core_caijifontrg:hover + #coretech_partonefontwrap4dtrg{
 		position: absolute;
-    	width: 184px;
-    	height: 184px;
-    	border-radius: 92px;
-    	top: -66px;
-    	left: -36px;
+    	width: 150px;
+    	height: 150px;
+    	border-radius: 75px;
+    	top: -48px;
+    	left: -17px;
     	background-color: #d3d3d3;
 	}
 	#coretech_partonefontwrap4dtkeshihua {
@@ -506,17 +507,16 @@
 	}
 	#core_caijifontke {
 		z-index: 1000;
-		position: absolute;		
-		top:9px;
-		left:-2px;
-		font-size: 30px;		
-		text-align: center;
-		width: 118px;
+	    position: absolute;
+	    top: 6px;
+	    left: 4px;
+	    text-align: center;
+	    width: 108px;
 	}
 	.core_caijifontdatakeshihua {
 		text-decoration: none;
 		color: white;
-		font-size: 30px
+		font-size: 28px
 	}
 	#core_caijifontke:hover + #coretech_partonefontwrap4dtkeshihua{
 		position: absolute;

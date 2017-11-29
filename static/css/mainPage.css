@@ -479,20 +479,20 @@ color:#FFFFFF;
 	//border: 1px solid red;
 	margin-top: 30px;
 	margin-bottom: 5px;
-	height: 200px
+	height: 220px
 }
 .footernewwrap1 {
 	position: absolute;
-	width: 12%;
+	width: 13%;
 	float: left;
 	top:7px;
 	//border: 1px solid black
 }
 .footernewwrap2 {
-	width: 15%;
+	width: 14%;
 	position: absolute;
 	//border: 1px solid black;
-	right: 70%
+	right: 68%
 }
 .footernewwrap3 {
 	width: 40%;
