@@ -359,27 +359,27 @@
 	}
 	.coretech_partthreefont1 {
 		position: absolute;
-		font-size: 28px;
+		font-size: 24px;
 		top:63px;
 	}
 	.coretech_partthreefont2 {
 		position: absolute;
-		font-size: 28px;
-		top:300px;
+		font-size: 24px;
+		top:290px;
 		left:-2px;
 	}
 	.coretech_partthreefont3 {
 		text-align: left;
     	width: 179px;
     	position: absolute;
-    	font-size: 28px;
+    	font-size: 24px;
     	top: 115px;
-    	right: -13px;
+    	right: -28px;
 	}
 	.coretech_partthreefont4 {
 		position: absolute;
-    	top: 152px;
-    	left: 386px;
+    	top: 144px;
+    	left: 361px;
     	font-size: 30px;
     	color: white;
     	text-align: center;
@@ -448,8 +448,8 @@
 	#core_caijifont {
 		z-index: 1000;
 		position: absolute;		
-		top:168px;
-		left:187px;
+		top:172px;
+		left: 190px;
 		font-size: 30px;		
 		text-align: center;
 		width: 145px;

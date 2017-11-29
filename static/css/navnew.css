@@ -1,0 +1,96 @@
+@media screen and (min-width:1920px) {
+	.newwebNav {
+    	width: 1400px;
+    	border: 1px solid red;
+    	margin: 0 auto;
+    	height: 56px;
+    	padding-top: 10px
+    }
+    .newnavlogo{
+	width: 20%;
+	float: left;
+ 	font-size: 24px;
+ 	//border: 1px solid red;
+	}
+	.newnavlogo1{
+		text-align: center;
+	}
+	.linkstyle {
+		color: white;
+		text-decoration:none;
+	}
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    .newwebNav {
+    	width: 1000px;
+    	border: 1px solid red;
+    	margin: 0 auto;
+    	height: 52px;
+    	padding-top: 10px
+
+    }
+    .newnavlogo{
+	width: 20%;
+	float: left;
+	color: white;
+	text-decoration:none;
+ 	font-size: 24px;
+ 	//border: 1px solid red;
+
+	}
+	.newnavlogo1{
+		text-align: center;
+	}
+	.linkstyle {
+		color: white;
+		text-decoration:none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    .newwebNav {
+    	width: 560px;
+    	border: 1px solid red;
+    	margin: 0 auto;
+    	height: 30px;
+    	padding-top: 10px
+    }
+    .newnavlogo{
+	width: 20%;
+	float: left;
+	color: white;
+	text-decoration:none;
+ 	font-size: 14px;
+ 	//border: 1px solid red;
+	}
+	.newnavlogo1{
+		text-align: center;
+	}
+	.linkstyle {
+		color: white;
+		text-decoration:none;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .newwebNav {
+    	width: 280px;
+    	border: 1px solid red;
+    	margin: 0 auto;
+    	height: 56px;
+    	padding-top: 10px
+    }
+    .newnavlogo{
+	width: 20%;
+	float: left;
+	color: white;
+	text-decoration:none;
+ 	font-size: 18px;
+ 	//border: 1px solid red;
+	}
+	.newnavlogo1{
+		text-align: center;
+	}
+	.linkstyle {
+		color: white;
+		text-decoration:none;
+	}
+}
