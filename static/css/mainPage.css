@@ -86,9 +86,12 @@ img{border:none}
 
 }
 .webNav {
-	height: 81px;
-	width: 100%;
-	text-align: center;
+	height: 31px;
+	/*width: 100%;*/
+	width: 840px;
+	margin: 0 auto;
+	//text-align: center;
+	padding-top:24px;
 }
 #nav {
 	position: absolute;
@@ -172,14 +175,21 @@ img{border:none}
 	color: rgba(255,255,255,0.5)
 }
 .navlogo{
-	width: 14.3%;
+	width: 20%;
 	float: left;
 	color: white;
 	text-decoration:none;
  	font-size: 20px;
- 	margin-top: 24px;
+ 	//border: 1px solid red;
 
 }
+.navlogo1{
+	text-align: center;
+
+}
+/*.conlogo {
+	margin-right: 6%
+}*/
 
 .webNav  a {
 	line-height: 40px;
@@ -464,7 +474,7 @@ color:#FFFFFF;
 }
 .footernewwrap {
 	position: relative;
-	width: 70%;
+	width: 840px;
 	margin: 0 auto;
 	//border: 1px solid red;
 	margin-top: 30px;
