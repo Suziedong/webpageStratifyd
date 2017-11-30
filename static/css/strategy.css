@@ -83,6 +83,7 @@
 	margin: 0 auto
 }
 .leftbordernew{
+	position: relative;
 	padding-top: 2%;
 	margin-left: -2%;
 	float: left;
@@ -93,6 +94,7 @@
 	margin-top: -6%;
 }
 .rightbordernew{
+	position: relative;
 	padding-top: 2%;
 	margin-right: 2%;
 	float: right;
