@@ -223,6 +223,8 @@ color:#FFFFFF;
 }
 #companyimg{
 	width: 100%;
+	position: relative;
+    top: 4px;
 }
 .clientTrustFont{
 	text-align: center;
@@ -618,7 +620,7 @@ color:#FFFFFF;
 	height: 60px;
 	text-align: center;
 	color: white;
-	bottom: -275px;
+	bottom: -255px;
     left: -20px;
 }
 .shouyeimgwrap1btn2 {
@@ -629,14 +631,14 @@ color:#FFFFFF;
 	height: 60px;
 	text-align: center;
 	color: white;
-	bottom: -275px;
+	bottom: -255px;
     left: -20px;
 }
 .shouyeimgwrap1btnfont {
 	margin-top: 12px
 }
 .kehuimg {
-	width: 60%
+	width: 50%
 }
 
 
