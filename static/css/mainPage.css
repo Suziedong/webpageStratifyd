@@ -504,7 +504,7 @@ color:#FFFFFF;
 }
 .footernewwrap1 {
 	position: absolute;
-	width: 13%;
+	width: 16%;
 	float: left;
 	top:7px;
 	//border: 1px solid black
@@ -513,20 +513,20 @@ color:#FFFFFF;
 	width: 14%;
 	position: absolute;
 	//border: 1px solid black;
-	right: 68%
+	right: 65%
 }
 .footernewwrap3 {
 	width: 40%;
 	position: absolute;
 	//border: 1px solid black;
-	right: 30%;
+	right: 26%;
 	font-size: white
 }
 .footernewwrap4 {
 	position: absolute;
 	width: 10%;
 	//border: 1px solid black;
-	right: 15%
+	right: 12%
 }
 .footernewwrap5 {
 	position: absolute;
@@ -576,6 +576,7 @@ color:#FFFFFF;
 	background-size: cover;
 	background-color: #456694;
 	background-position: center;
+	background-color: #0a3b7f
 }
 .shouyeimgwrap1img2 {
 	position: absolute;
@@ -586,6 +587,7 @@ color:#FFFFFF;
 	background-size: cover;
 	background-color: #264879;
 	background-position: center;
+	background-color: #0a3b7f
 } 
 .shouyeimgwrap1img3 {
 	position: absolute;
@@ -595,6 +597,7 @@ color:#FFFFFF;
 	background-size: cover;
 	background-color: #284f88;
 	background-position: center;
+	background-color: #0a3b7f
 
 
 }
@@ -607,6 +610,7 @@ color:#FFFFFF;
 	background-size: cover;
 	background-color: #0e4288;	
 	background-position: center;
+	background-color: #0a3b7f
 
 
 }
@@ -671,6 +675,16 @@ color:#FFFFFF;
 .kehuimg {
 	height: 70px;
 	//width: 50%
+}
+.kehuimgananother {
+	height: 48px
+}
+.shouyekehuliucunanother{
+	width: 220px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
 }
 
 

@@ -74,8 +74,10 @@
 	width: 150px;
 	height: 150px;
 	border-radius: 75px;
-	border: 1px solid red;
-	margin: 0 auto
+	border: 1px solid #227af7;
+	margin: 0 auto;
+	background: #227af7
+
 }
 .shiwrap{
 	width: 80%;
@@ -99,4 +101,7 @@ p{
 	font-size: 20px;
 	line-height: 40px;
 	margin-bottom: 90px
+}
+.shixianluxiannewimg {
+	width: 100%
 }

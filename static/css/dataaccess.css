@@ -382,3 +382,9 @@
     background: -moz-linear-gradient(red, blue); 
     background: linear-gradient(rgba(92,217,228,1), rgba(104,236,218,1)); 
 }
+.waiwangnewpic {
+	height: 120px
+}
+.shujujieruimg {
+	height: 100px
+}

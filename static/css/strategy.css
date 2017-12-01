@@ -38,10 +38,21 @@
 .strtwoimgwrapleft{
 	float: left;
 	width: 40%;
+	height: 278px;
+	background-image: url(shixianxijie.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #0a3b7f
+
 }
 .strtwoimgwrapright{
 	float: right;
 	width: 40%;
+	height: 278px;
+	background-image: url(shixianluxian.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #0a3b7f
 }
 .strwrap{
 	width: 80%;
@@ -104,4 +115,11 @@
 	height: 90px;
 	margin-bottom: 90px;
 	margin-top: -6%;
+}
+.shixianxijie {
+	width: 220px;
+	height: 160px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 75px;
 }
