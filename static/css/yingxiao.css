@@ -2,6 +2,7 @@
 	background-image: url(yingxiaobg.jpg);
 	background-size: cover;
 	background-position: center;
+	background-color: #004dc6;
 }
 .yingxiao_partone{
 	width: 100%;
@@ -69,7 +70,12 @@
 }
 .shixianlogo{
 	text-align: center;
-	margin-bottom: 60px
+	margin-bottom: 60px;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 1px solid red;
+	margin: 0 auto
 }
 .shiwrap{
 	width: 80%;
