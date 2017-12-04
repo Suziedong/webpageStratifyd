@@ -1,0 +1,124 @@
+@media screen and (min-width:1920px) {
+  .navfont {
+    color: white;
+    font-size: 24px;  
+  }
+  .webheader {
+    position: fixed;
+    top:0px;
+    border: 1px solid black;
+    max-width: 1428px;
+    margin: 0 auto;
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom:0;
+    height:60px;
+  }
+  .webfooter {
+    width: 100%;
+    background-color: red;
+    border: 1px solid red;
+
+  }
+  .webfootercontent {
+    max-width: 1428px;
+    margin: 0 auto;
+    border: 1px solid black
+  }
+  .coretech_partone {
+    background-image: url(coretechbg.jpg);
+    background-size: cover;
+    background-color: #004dc6;
+    background-position: center;
+    height: 1070px;
+    width: 100%;
+  }
+
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  .navfont {
+    color: white;
+    font-size: 23.64px
+  }
+  .webheader {
+    position: fixed;
+    top:0px;
+    border: 1px solid black;
+    max-width: 1030px;
+    margin: 0 auto;
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom:0;
+    height:60px;
+  }
+  .webfooter {
+    width: 100%;
+    background-color: red;
+    border: 1px solid red;
+
+  }
+  .webfootercontent {
+    max-width: 1030px;
+    margin: 0 auto;
+    border: 1px solid black
+  }
+  .coretech_partone {
+    background-image: url(coretechbg.jpg);
+    background-size: cover;
+    background-color: #004dc6;
+    background-position: center;
+    height: 768px;
+    width: 100%;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+  .navfont {
+    color: white;
+    font-size: 14px
+  }
+  .webheader {
+    position: fixed;
+    top:0px;
+    border: 1px solid black;
+    max-width: 590px;
+    margin: 0 auto;
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom:0;
+    height:60px;
+  }
+  .webfooter {
+    width: 100%;
+    background-color: red;
+    border: 1px solid red;
+
+  }
+  .webfootercontent {
+    max-width: 590px;
+    margin: 0 auto;
+    border: 1px solid black
+  }
+  .coretech_partone {
+    background-image: url(coretechbg.jpg);
+    background-size: cover;
+    background-color: #004dc6;
+    background-position: center;
+    height: 1023px;
+    width: 100%;
+  }
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .webcontainer {
+    //max-width: 960px;
+    border: 1px solid red;
+    margin: 0 auto
+  }
+  .navfont {
+    color: white
+  }
+}
