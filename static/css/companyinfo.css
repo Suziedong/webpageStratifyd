@@ -1,0 +1,537 @@
+.companyinfoheader{
+	background-image: url(companyintro.jpg);
+	background-size: cover;
+	background-color: #0f51b2;
+	background-position: center;
+}
+.gongsijianjie{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 120px;
+	margin-top: 110px;
+}
+.con_companycontent{
+	padding-top: 60px;
+	font-size: 18px;
+	width: 80%;
+	margin: 0 auto;
+	line-height: 33px;
+}
+.jisufazhanintro{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 100px
+}
+.time{
+	width: 100%
+}
+.timediv{
+	margin-bottom: 90px
+}
+.gongsiguanliceng{
+	background-color: #eeeeee;
+	padding-top: 110px;
+	padding-bottom: 130px
+}
+.gongsiguanlicenginfo{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 60px
+}
+.personWholeWrap{
+	width: 70%;
+	margin: 0 auto;
+	//padding-bottom: 40px
+}
+.personWholeWraptwo{
+	width: 53%;
+	margin: 0 auto
+}
+.personWrap{
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+}
+.person {
+	width: 80%
+}
+.personWrap2{
+	float: left;
+	width: 22%;
+	margin: 0 auto;
+	margin-right: 11%;
+	text-align: center
+}
+.personWrap22 {
+	padding-right: 12%;
+    float: right;
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+}
+.person2{
+	width: 124%
+}
+.hezuohuoban{
+	margin-top: 110px;
+
+}
+.huzuohuobaninfo{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 60px
+}
+.clientTrustLogoGroupThird{
+	padding-bottom: 120px;
+	border-bottom-style:none;
+}
+.wordline{
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+	line-height: 36px
+}
+.cardborderWrap{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom:4%;
+}
+.cardTwoborderWrap{
+	width: 61%;
+	margin: 0 auto;
+}
+.cardborder{
+	//background-color: #227af7;
+	color: white;
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+
+}
+.cardtwoborder{
+	color: white;
+	float: left;
+	width: 33%;
+	margin: 0 auto;
+}
+.cardtwoborder1{
+	color: white;
+	float: right;
+	width: 33%;
+	margin: 0 auto;
+}
+.cardFont{
+	background-color: #227af7;
+	width: 71%;
+	margin-top:-4%;
+	padding-left: 9%;
+	//height: 56px;
+	//text-align: center;
+	font-size: 16px;
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+.cardFontSend{
+	background-color: #227af7;
+	width: 71%;
+	margin-top:-2%;
+	padding-left: 9%;
+	//height: 56px;
+	//text-align: center;
+	font-size: 16px;
+    padding-bottom: 4%;
+    //padding-top: 7%;
+}
+.cardTwoFont{
+	background-color: #227af7;
+	width: 61%;
+	margin-top: -2%;
+	font-size: 16px;
+	//height: 70px;
+	//text-align: center;
+	padding-left: 9%;
+	padding-bottom: 2%;
+	padding-top: 4%;
+}
+.cardTwoFontSen{
+	background-color: #227af7;
+	width: 61%;
+	margin-top: -2%;
+	font-size: 16px;
+	//height: 70px;
+	//text-align: center;
+	padding-left: 9%;
+	padding-bottom: 3%
+}
+
+
+
+.timeline1 {
+	width: 840px;
+	margin:0 auto;
+}
+.timeline1font0 {
+	width: 13%;
+	float: left;
+	margin-right: 5%
+}
+.timeline1font10 {
+	/*position: absolute;
+	top:114px;*/
+	font-size: 18px;
+}
+.timeline1font101 {
+	/*position: absolute;
+	top:114px;*/
+	font-size: 24px;
+	color: #a47bfe
+}
+.timelinefontright1 {
+	position: absolute;
+	top:114px;
+}
+.timeline1font20 {
+	/*position: absolute;
+	top:232px;*/
+	font-size: 18px;
+}
+.timeline1font201 {
+	/*position: absolute;
+	top:232px;
+*/	font-size: 24px;
+	color: #8b56ff
+}
+.timeline1font30 {
+	/*position: absolute;
+	top:350px;*/
+	font-size: 18px;
+}
+.timeline1font301 {
+	/*position: absolute;
+	top:350px;*/
+	font-size: 24px;
+	color: #7d41ff
+}
+.timeline1font40 {
+	/*position: absolute;
+	top:468px;*/
+	font-size: 18px;
+}
+.timeline1font401 {
+	/*position: absolute;
+	top:468px;*/
+	font-size: 24px;
+	color: #6120ec
+}
+.timeline1font50 {
+	/*position: absolute;
+	top:586px;*/
+	font-size: 18px;
+}
+.timeline1font501 {
+	/*position: absolute;
+	top:586px;*/
+	font-size: 24px;
+	color: #4b4bdd
+}
+
+.timeline1font60 {
+	/*position: absolute;
+	top:697px;*/
+	font-size: 18px;
+}
+.timeline1font601 {
+	/*position: absolute;
+	top:697px;*/
+	font-size: 24px;
+	color: #4b55dd
+}
+.timeline1font70 {
+	/*position: absolute;
+	top:807px;*/
+	font-size: 18px;
+}
+.timeline1font701 {
+	/*position: absolute;
+	top:807px;*/
+	font-size: 24px;
+	color: #3f54e4
+}
+.timeline1font80 {
+	/*position: absolute;
+	top:920px;*/
+	font-size: 18px;
+}
+.timeline1font801 {
+	/*position: absolute;
+	top:920px;*/
+	font-size: 24px;
+	color: #1a58e3
+}
+
+.timeline1font90 {
+	/*position: absolute;
+	top:1036px;*/
+	font-size: 18px;
+}
+.timeline1font901 {
+	/*position: absolute;
+	top:1036px;*/
+	font-size: 24px;
+	color: #2361ed
+}
+.timeline1font100 {
+	/*position: absolute;
+	top:1150px;*/
+	font-size: 18px;
+}
+.timeline1font1001 {
+	/*position: absolute;
+	top:1150px;*/
+	font-size: 24px;
+	color: #2e6ad3
+}
+.timeline1font110 {
+	/*position: absolute;
+	top:1267px;*/
+	font-size: 18px;
+}
+.timeline1font1101 {
+	/*position: absolute;
+	top:1267px;*/
+	font-size: 24px;
+	color: #235dc2
+}
+.timeline1font120 {
+	/*position: absolute;
+	top:1387px;*/
+	font-size: 18px;
+}
+.timeline1font1201 {
+	/*position: absolute;
+	top:1387px;*/
+	font-size: 24px;
+	color: #144baa
+}
+.timeline1font130 {
+	/*position: absolute;
+	top:1500px;*/
+	font-size: 18px;
+}
+.timeline1font1301 {
+	/*position: absolute;
+	top:1500px;*/
+	font-size: 24px;
+	color: #104299
+}
+.timeline1font140 {
+	/*position: absolute;
+	top:1615px;*/
+	font-size: 18px;
+}
+.timeline1font1401 {
+	/*position: absolute;
+	top:1615px;*/
+	font-size: 24px;
+	color: #0f3c8a
+}
+.timeline1font150 {
+	/*position: absolute;
+	top:1728px;*/
+	font-size: 18px;
+}
+.timeline1font1501 {
+	/*position: absolute;
+	top:1728px;*/
+	font-size: 24px;
+	color: #0d3883
+}
+.timeline1font2 {
+	//position: absolute;
+	width: 10%;
+	float: left;
+}
+.timeline1font3 {
+	width: 70%;
+	float: right
+}
+
+.timelineWrap {
+	position: relative;
+	width: 840px;
+	margin:0 auto;
+	//border: 1px solid red;
+	margin-bottom: 150px
+}
+.timelinetable {
+	width: 100%
+}
+.timelinetr {
+	height: 100px
+}
+.timelinetr1 {
+	width: 168px
+}
+.timelinetr2 {
+	width: 100px
+}
+.timelinetr3 {
+	width: 572px
+}
+.timelineyuan1{
+	background-color: #a47bfe;
+	border: 1px solid #a47bfe;
+}
+.timelineyuan2 {
+	background-color: #8b56ff;
+	border: 1px solid #8b56ff;
+}
+.timelineyuan3 {
+	background-color: #7d41ff;
+	border: 1px solid #7d41ff;
+}
+.timelineyuan4 {
+	background-color: #6120ec;
+	border: 1px solid #6120ec;
+}
+.timelineyuan5 {
+	background-color: #4b4bdd;
+	border: 1px solid #4b4bdd;
+}
+.timelineyuan6 {
+	background-color: #4b55dd;
+	border: 1px solid #4b55dd;
+}
+.timelineyuan7 {
+	background-color: #3f54e4;
+	border: 1px solid #3f54e4;
+}
+.timelineyuan8 {
+	background-color: #1a58e3;
+	border: 1px solid #1a58e3;
+}
+.timelineyuan9 {
+	background-color: #2361ed;
+	border: 1px solid #2361ed;
+}
+.timelineyuan10 {
+	background-color: #2e6ad3;
+	border: 1px solid #2e6ad3;
+}
+.timelineyuan11 {
+	background-color: #235dc2;
+	border: 1px solid #235dc2;
+}
+.timelineyuan12 {
+	background-color: #144baa;
+	border: 1px solid #144baa;
+}
+.timelineyuan13 {
+	background-color: #104299;
+	border: 1px solid #104299;
+}
+.timelineyuan14 {
+	background-color: #0f3c8a;
+	border: 1px solid #0f3c8a;
+}
+.timelineyuan15 {
+	background-color: #0d3883;
+	border: 1px solid #0d3883;
+}
+.timelineyuan {
+    //background-color: #a47bfe;
+    width: 60px;
+    height: 60px;
+    //border: 2px solid #a47bfe;
+    border-radius: 32px
+}
+.timelineborder {
+	position: absolute;
+    height: 1594px;
+    border-left: 2px solid #d2d2d2;
+    top: -32px;
+    left: 201px;
+    z-index: -1000
+}
+
+.gongsipart1 {
+	width: 840px;
+	margin: 0 auto;
+	//border:1px solid red;
+	height: 353px
+}
+.gongsipart1per1 {
+	width: 22%;
+	float: left;
+	border: 1px solid #227af7;
+	margin-right: 3%;
+	text-align: center;
+}
+.gongsipart1per2 {
+	width: 22%;
+	float: left;
+	border: 1px solid #227af7;
+	margin-right: 3%
+}
+.gongsipart1per3 {
+	width: 22%;
+	float: left;
+	border: 1px solid #227af7;
+	margin-right: 3%
+}
+.gongsipart1per4 {
+	margin-right: 8px;
+	width: 22%;
+	float: right;
+	border: 1px solid #227af7;
+}
+.gongsipart1fontborder {
+	width: 100%;
+	background-color: #227af7;
+	height: 70px;
+	margin-top:-5px 
+}
+.guanliimg {
+	width: 100%
+}
+.gongsipart1fontdaxiao {
+	padding-top: 8px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.gongsipart1fontdaxiao11 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.gongsipart2 {
+	height: 288px;
+	width: 600px;
+	margin: 0 auto;
+	//border: 1px solid red
+}
+.gongsipart1per5 {
+	float: left;
+	width: 30%;
+	border: 1px solid #227af7;
+	margin-right: 4%
+	
+}
+.gongsipart1per7 {
+	float: right;
+	width: 30%;
+	border: 1px solid #227af7
+}
+.gongsipart1per6 {
+	width: 30%;
+	margin: 0 auto;
+	border: 1px solid #227af7;
+	float: left;
+}
+.timelinepicnew {
+	width: 100%
+}
+

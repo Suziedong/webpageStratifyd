@@ -1,0 +1,390 @@
+.dataaccessheader{
+	background-image: url(dataaccessbg.jpg);
+	background-size: cover;
+	background-color: #0b3fa7;
+	background-position: center;
+}
+.dataaccess_partone {
+	margin-top: 100px;
+	margin-bottom: 130px
+}
+.dataaccess_partonefont {
+	text-align: center;
+	font-size: 36px
+}
+.dataaccess_partoneimgwrap {
+	position: relative;
+	//border: 1px solid red;
+	width: 830px;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 100px
+}
+.datacaijiimg {
+	width: 100%
+}
+.dataaccess_partonefontone {
+	position: absolute;
+	top:110px;
+	font-size: 22px;
+}
+.dataaccess_partonefonttwo {
+	position: absolute;
+	font-size: 22px;
+	left: 244px;
+	top:110px;
+}
+.dataaccess_partonefontthree {
+	position: absolute;
+	font-size: 22px;
+	left: 487px;
+	top:110px;
+}
+.dataaccess_partonefontfour {
+	position: absolute;
+	font-size: 22px;
+	right: 0px;
+	top:110px;
+}
+.dataaccess_parttwo {
+	background-image: url(dataaccessmodule2bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.dataaccess_parttwofont {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 36px;
+	color: white
+}
+.dataaccess_parttwofonttwo {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;
+	color: white
+}
+.dataaccess_parttwofontWrap {
+	width: 830px;
+	//border: 1px solid red;
+	margin: 0 auto;
+	padding-bottom: 100px
+}
+.dataaccess_parttwofontleftone {
+	float: left;
+	width: 46%;
+	color: white;
+	font-size: 20px
+}
+.dataaccess_parttwofontrighttwo {
+	float: right;
+	width: 46%;
+	color: white;
+	font-size: 20px
+}
+.dataaccess_partthree {
+	padding-bottom: 100px;
+	
+	background-color: #f8fafc
+}
+.dataaccess_partthreefontone {
+	text-align: center;
+	padding-top: 100px;
+	font-size: 36px
+}
+.dataaccess_partthreeingwrap {
+	width: 840px;
+	//border: 1px solid red;
+	margin: 0 auto;
+	margin-top: 60px
+}
+.dataaccess_partthreeingpartone {
+	float: left;
+	width: 30%
+}
+.dataaccess_parttwoyuanWrap {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 50px;
+	margin: 0 auto;
+	margin-bottom: 20px
+}
+.dataaccess_parttwoyuanfont {
+	position: absolute;
+	font-size: 40px;
+	top:20px;
+	left: 29px
+}
+.dataaccess_partthreeingpartone {
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	background-color: white;
+	height: 400px;
+	width:30%;
+	float: left;
+	//border: 1px solid black;
+	margin-right: 5%
+}
+.dataaccess_partthreeingparttwo {
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	height: 400px;
+	width: 30%;
+	float: left;
+	//border: 1px solid black;
+	background-color: white
+}
+.dataaccess_partthreeingpartthree {
+	background-color: white;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	height: 400px;
+	width: 30%;
+	float: right;
+}
+.dataaccess_partthreewaiwang {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px
+}
+.dataaccess_partthreechaoguo {
+	font-size: 16px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+.dataaccess_partthreewaibg {
+	text-align: center;
+	margin-top: 60px
+}
+.dataaccess_partthreewaibg1 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(236,59,60,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px;
+}
+.dataaccess_partthreewaibg2 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(237,124,21,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px
+}
+.dataaccess_partthreewaibg3 {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(250,159,15,0.1);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 60px
+}
+.dataaccess_partfourfont {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 100px;
+	margin-bottom: 30px
+}
+.dataaccess_partfourimgwrap {
+	height: 440px;
+	width: 840px;
+	margin: 0 auto;
+	//border: 1px solid red
+}
+.dataaccess_partfourfontwrap {
+	padding-bottom: 70px;
+	width: 840px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.dataaccess_partfourimgleft {
+	float: left;
+	width: 36%;
+	//border: 1px solid black;
+	margin-top: 100px;
+	font-size: 24px
+}
+.dataaccess_partfourimgright {
+	position: relative;
+	float: right;
+	width: 54%;
+}
+.dataaccess_partfourimgright1 {
+	position: absolute;
+	top:123px;
+	left: 26px
+}
+.dataaccess_partfourimgright2 {
+	position: absolute;
+	top:50px;
+	left: 127px
+}
+.dataaccess_partfourimgright3 {
+	position: absolute;
+	left: 127px;
+	top:202px;
+}
+.dataaccess_partfourimgright4 {
+	position: absolute;
+	top:80px;
+	left: 278px
+}
+.dataaccess_partfourimgright5 {
+	position: absolute;
+	top:188px;
+	left: 268px
+}
+.picf {
+	width: 70%
+}
+.pica {
+	width: 70%
+}
+.picjd {
+	width: 70%
+}
+.piccsv {
+	width: 70%
+}
+.pichoodp {
+	width: 70%
+}
+
+.dataaccess_partoneimgwrappic1 {
+	position: absolute;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border:1px solid #7a69e5;
+	background-color: #7a69e5;
+	box-shadow: 0 15px 30px 0 rgba(122,105,119,0.3);
+	border-radius: 18px
+}
+.dataaccess_partoneimgwrappic2 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border:1px solid #ee5c5d;
+	background-color: #ee5c5d;
+	box-shadow: 0 15px 30px 0 rgba(238,92,93,0.3);
+	border-radius: 18px;
+	left: 237px
+
+}
+.dataaccess_partoneimgwrappic3 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border:1px solid #44b4f8;
+	background-color: #44b4f8;
+	box-shadow: 0 15px 30px 0 rgba(68,180,248,0.3);
+	border-radius: 18px;
+	left: 477px
+}
+.dataaccess_partoneimgwrappic4 {
+	position: absolute;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	border:1px solid #68ecda;
+	background-color: #68ecda;
+	box-shadow: 0 15px 30px 0 rgba(104,236,218,0.3);
+	border-radius: 18px;
+}
+.dataaccess_partoneimgwrappic5 {
+	position: absolute;
+	left: 105px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic6 {
+	position: absolute;
+	left: 350px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic7 {
+	position: absolute;
+	left: 592px;
+	top:50px;
+	//border: 1px solid red;
+	height: 4px;
+	width: 110px;
+	border-radius: 2px;
+}
+.dataaccess_partoneimgwrappic5duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(122,105,229,1), rgba(139,103,210,1));
+}
+.dataaccess_partoneimgwrappic5chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(158,101,187,1), rgba(238,92,93,1)); 
+}
+.dataaccess_partoneimgwrappic6duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(238,92,93,1), rgba(199,112,128,1));
+}
+.dataaccess_partoneimgwrappic6chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(168,128,156,1), rgba(68,180,248,1)); 
+}
+.dataaccess_partoneimgwrappic7duan {
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	margin-right: 16px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue);
+    background: linear-gradient(rgba(68,180,248,1), rgba(85,206,234,1));
+}
+.dataaccess_partoneimgwrappic7chang {
+	position: absolute;
+	left: 46px;
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(red, blue);
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(rgba(92,217,228,1), rgba(104,236,218,1)); 
+}
+.waiwangnewpic {
+	height: 120px
+}
+.shujujieruimg {
+	height: 100px
+}

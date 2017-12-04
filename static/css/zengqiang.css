@@ -1,0 +1,206 @@
+.zengqiangheader{
+	background-image: url(rengongbgnew.jpg);
+	background-size: cover;
+	background-color: #10309a;
+	background-position: center;
+}
+.zengqiangfont {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 100px
+}
+.zengqiangimgwrap {
+	width: 840px;
+	margin: 0 auto;
+	//border: 1px solid red;
+	position: relative;
+	height: 755px;
+	margin-top: 100px;
+	margin-bottom: 100px
+}
+.zengqiangimg1 {
+	position: absolute;
+	height: 300px;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	width: 250px;
+}
+.zengqiangimg2 {
+	position: absolute;
+	height: 300px;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	width: 250px;
+	right: 0
+}
+.zengqiangimg3 {
+	position: absolute;
+	height: 300px;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	width: 250px;
+	bottom: 0
+}
+.zengqiangimg4 {
+	position: absolute;
+	height: 300px;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	width: 250px;
+	bottom: 0;
+	right: 0
+}
+.zengqiangimg5 {
+	position: absolute;
+	height: 300px;
+	box-shadow: 0 15px 30px 0 rgba(26,52,45,.1);
+	width: 250px;
+	left: 300px;
+	top:200px;
+}
+.zengqiangimgdiv {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+.zengqiangimgfontjiao {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px
+}
+.zengqiangimgfontshen {
+	text-align: center;
+	font-size: 16px;
+	width: 200px;
+	margin: 0 auto
+}
+.zengqiangpart2 {
+	background-image: url(rengongbg.jpg);
+	background-size: cover;
+	background-color: #10309a;
+	background-position: center;
+
+}
+.zengqiangpart2font {
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 60px
+}
+.zengqiangpart2imgwrap {
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
+	//border: 1px solid red;
+	padding-bottom: 100px
+}
+.zengqiangpart2imgwrap1 {
+	float: left;
+	width: 26%;
+	//border: 1px solid black;
+	margin-right: 10%
+}
+.zengqiangpart2imgwrap2 {
+	float: left;
+	width: 26%;
+	//border: 1px solid black
+}
+.zengqiangpart2imgwrap3 {
+	float: right;
+	width: 26%;
+	//border: 1px solid black
+}
+.zengqiangpart2touimg {
+	text-align: center;
+	margin-bottom: 20px
+}
+.zengqiangpart2toufont {
+	text-align: center;
+	font-size: 22px;
+	color: white
+}
+.zengqiangpart3font1 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 100px;
+	padding-bottom: 60px
+}
+.zengqiangpart3fontwrap {
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	text-align: left;
+	margin: 0 auto;
+}
+.zengqiangpart3fontwrap2 {
+	position: relative;
+	width: 39%;
+	float: right;
+	margin-top: 60px;
+	padding-bottom: 100px;
+	//border: 1px solid black;
+	height: 200px
+
+}
+.zengqiangpart3fontrest {
+	font-size: 22px;
+	margin-bottom: 15px;
+	color: #000000
+}
+.zengqiangpart3qiangdawrap {
+	width: 840px;
+	margin: 0 auto;
+	//border: 1px solid red
+}
+.teimg {
+	width: 90%
+}
+.zengqiangpart3fontwrap2te1 {
+	position: absolute;
+	top:50px;
+}
+.zengqiangpart3fontwrap2te2 {
+	position: absolute;
+	right: -10px
+}
+.zengqiangpart3fontwrap2te3 {
+	position: absolute;
+	top:5px;
+	left: 107px
+}
+.zengqiangpart3fontwrap2te8 {
+	position: absolute;
+    top: 109px;
+    left: 260px;
+}
+.zengqiangpart3fontwrap2te5 {
+	position: absolute;
+    top: 155px;
+    left: 145px;
+}
+.zengqiangpart3fontwrap2te6 {
+	position: absolute;
+    top: 163px;
+    left: 41px;
+}
+.zengqiangpart3fontwrap2te7 {
+	position: absolute;
+    top: 239px;
+    left: 133px;
+}
+.zengqiangpart3fontwrap2te9 {
+	position: absolute;
+    top: 197px;
+    right: -20px;
+}
+.zengqiangpart2touimg1 {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.1);
+}
+.jinhaopic {
+	height: 90px
+}
+.touimg {
+	width: 100%
+}
