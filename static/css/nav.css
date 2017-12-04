@@ -1,0 +1,10 @@
+#whole{
+	width: 90%;
+	background-color: transparent; 
+}
+.navbar-button{
+	border-color: transparent !important
+}
+.navbar-button:hover{
+	background-color: transparent !important;
+}
