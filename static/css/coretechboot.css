@@ -1,0 +1,31 @@
+*{margin:0;padding:0};
+img{border:none}
+.coretech_sectionone {
+	background-image: url(coretechbg.jpg);
+  background-size: cover;
+	background-color: #004dc6;
+  background-position: center;
+	height: 1070px;
+  width: 100%;
+}
+.coretechmargin {
+	margin-top: 530px
+}
+.part3 {
+		background-image: url(coretechbg.jpg);
+  background-size: cover;
+	background-color: #004dc6;
+  background-position: center;
+	height: 1070px;
+  width: 100%;
+}
+
+.fontcolor {
+	color: white
+}
+.fontcolorbg {
+	background-color: #fff
+}
+.footerfont {
+	text-align: left;
+}
