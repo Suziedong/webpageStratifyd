@@ -1,7 +1,11 @@
 *{margin:0;padding:0};
 img{border:none}
-
-
+.marketing-topbar{
+  background: #2c3840;
+  font-weight: 700;
+  position: relative;
+  background: transparent;
+}
 .part3 {
 		background-image: url(coretechbg.jpg);
   background-size: cover;
@@ -131,6 +135,9 @@ li {
 		height: 1080px;
 	  width: 100%;
 	}
+	.coretechmargin {
+		margin-top: 380px
+	}
 	.coretech_sectionthree {
 		background-image: url(coretechmodele3bg768.jpg);
 	  background-size: cover;
@@ -186,5 +193,16 @@ li {
 	}
 	.footerfont {
 		text-align: center;
+	}
+	.navfont {
+		text-align: left;
+	}
+	.is-drilldown {
+		position: absolute;
+    background: #045ec8;
+    min-height: 430px;
+    width: 100%;
+    left:-2px;
+    //max-width: 320px;
 	}
 }
