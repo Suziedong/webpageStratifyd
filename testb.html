@@ -2,90 +2,74 @@
 <html>
   <head>
     <title>My First Week at Epicodus</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/utils/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+   <!--  <link type="text/css" rel='stylesheet' href='static/css/coretechboot.css'>  
+    </link> -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="static/utils/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </head>
   <body>
+<!--   <nav class="main-navigation">
     <div class="container">
-      <div class="jumbotron">
-        <h1>My First Week at Epicodus</h1>
-        <p>
-          I've almost finished my first week at Epicodus. Here are some of the things I've learned so far:
-        </p>
-      </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="well">
-            <h2>Command Line</h2>
-            <ul>
-              <li>Navigating my documents through the command line.</li>
-              <li>Creating new files and folders through the command line.</li>
-              <li>Moving and deleting files and folders through the command line.</li>
-              <li>Retrieving my current location from the command line.</li>
+        <div class="col-sm-12">
+          <div class="navbar-header">
+            <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
+              <span class="sr-only">Toggle navigation</span> 
+              <i class="fa fa-bars"></i>
+            </span>
+          </div>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="menu">
+              <li role="presentation">
+                <a href="/" title="首页">首页</a>
+              </li>
+              <li role="presentation">
+                <a href="https://docs.golaravel.com/docs/" title="Laravel 中文文档" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', 'Laravel 中文文档'])">Laravel 中文文档</a>
+              </li>
+              <li role="presentation" style="font-weight: bold"><a href="https://pkg.phpcomposer.com/" title="Packagist 中国镜像" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', 'Packagist 中国镜像'])">Packagist 中国镜像</a>
+              </li>
+              <li role="presentation"><a href="http://www.phpcomposer.com/" title="Composer 中文文档" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', 'Composer 中文文档'])">Composer 中文文档</a>
+              </li>
+              <li role="presentation"><a href="https://php.golaravel.com/" title="PHP 中文手册" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', 'PHP 中文手册'])">PHP 中文手册</a>
+              </li>
+              <li role="presentation"><a href="https://phptherightway.golaravel.com/" title="PHP 编程之道" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', 'PHP 编程之道'])">PHP 编程之道</a>
+              </li>
+              <li role="presentation"><a href="http://wenda.golaravel.com/" title="问答社区" target="_blank" onclick="_hmt.push(['_trackEvent', 'main-navigation', 'click', '问答社区'])">问答社区</a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="panel panel-info">
-            <div class="panel-heading"
-              <h2 class="panel-title">Git and GitHub</h2>
-            </div>
-            <div class="panel-body">
-              <ul>
-                <li>Initializing local Git repository, and create remote GitHub repositories.</li>
-                <li>Tracking and committing changes with Git.</li>
-                <li>Pushing a local Git repository to a remote GitHub repository.</li>
-                <li>Branching a project to make multiple copies.</li>
-                <li>Merging multiple Git branches back together.</li>
-                <li>Cloning down a project from GitHub to my local machine.</li>
-                <li class="bg-success">Publishing a website on GitHub pages.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h2>HTML</h2>
-          <ul>
-            <li>Using HTML tags to create websites.</li>
-            <li>Indenting and organize HTML correctly.</li>
-            <li>Incorporating block elements.</li>
-            <li>Including inline elements.</li>
-            <li>Using both spans and divs.</li>
-            <li>Adding classes and ID's to style HTML with CSS.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h2>CSS</h2>
-          <ul>
-            <li>Creating a stylesheet.</li>
-            <li>Using CSS selectors to specify an HTML element.</li>
-            <li>Writing CSS rules to style particular elements in my HTML.</li>
-            <li>Floating elements to create columns, sidebars, and other alignments.</li>
-            <li>Padding, margins, and the box model.</li>
-            <li>How CSS cascades to apply styles.</li>
-            <li>The importance of responsive design.</li>
-            <li class="bg-success">How to use media queries to dynamically change the appearance of a site based on the user's viewport.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h2>Bootstrap</h2>
-          <ul>
-            <li>What front-end frameworks do.</li>
-            <li>Downloading and installing Bootstrap.</li>
-            <li class="bg-success">Adding Bootstrap styles to a website.</li>
-            <li>Navigating Bootstrap documentation.</li>
-            <li>Creating websites with Bootstrap.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h2>Partnering</h2>
-          <blockquote class="bg-info">
-            <p>"It's been really good working with you!"</p>
-            <footer>My partner the first day</footer>
-          </blockquote>
-        </div>
       </div>
     </div>
+  </nav> -->
+
+
+    <nav class="navbar webnav navbar-fixed-top">
+        <div class="container text-center border">
+        <div class="row">
+          <div class="col-sm-12">
+          <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar fontcolorbg"></span>
+                  <span class="icon-bar fontcolorbg"></span>
+                  <span class="icon-bar fontcolorbg"></span>
+                </button>
+                <a class="navbar-brand " href="#" >Logo</a>
+          </div>
+          <div class="collapse navbar-collapse " id="myNavbar">
+              <div class="is-drilldown">
+                  <ul class=" nav  nav-justified ">
+                    <li class=" active"><a href="#" class="fontcolor navfont">首页</a></li>
+                    <li class=""><a href="#" class="fontcolor navfont">核心技术</a></li>
+                    <li class=""><a href="#" class="fontcolor navfont">公司简介</a></li>
+                    <li class=""><a href="#" class="fontcolor navfont">关于我们</a></li>
+                  </ul>
+              </div>
+          </div>
+          </div>          
+        </div>
+      </div>
+      </nav>
   </body>
 </html>
