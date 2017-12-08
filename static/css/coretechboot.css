@@ -1,10 +1,7 @@
 *{margin:0;padding:0};
 img{border:none}
-.marketing-topbar{
-  background: #2c3840;
-  font-weight: 700;
-  position: relative;
-  background: transparent;
+nav .nav {
+	margin: :0;padding:0;
 }
 .part3 {
 		background-image: url(coretechbg.jpg);
@@ -51,6 +48,9 @@ li {
 .h3marin {
 	margin-top: 11px
 }
+.coretech_caijiwrap {
+	position: relative;
+}
 
 
 @media screen and (min-width:1920px) {
@@ -77,14 +77,85 @@ li {
 		height: 640px
 	}
 	.coretech_dataimg {
-		width: 730px;
+		width: 724px;
 		margin: 0 auto;
-		border: 1px solid red;
-		height: 586px;
-		background-image: url(1920-qiangdadeshujujieru.jpg);
+		height: 583px;
+		background-image: url(qiangdadeshuju1920.png);
 	  background-size: cover;
-		background-color: #004dc6;
 	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 448px;
+		margin: 0 auto;
+		height: 431px;
+		background-image: url(rengongzhineng1920.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 1137px;
+		margin: 0 auto;
+		height: 573px;
+		background-image: url(zhineng1920.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:52px;
+		left:100px;
+		letter-spacing: 5px
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:110px;
+		letter-spacing: 5px;
+		left: 30px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 310px;
+		letter-spacing: 5px;
+		right: 4px
+	}
+	.shujucaijiwrap {
+		position: absolute;
+		top:70px;
+		left:186px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:250px;
+		left: -20px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:250px;
+		right: -20px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left: 170px
+	}
+	.neiwangwrap {
+		position: absolute;
+		width: 208px;
+		top:208px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 208px;
+		top:146px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 208px;
+		right: 90px;
+		bottom: 20px
 	}
 	.footerfont {
 		text-align: left;
@@ -112,21 +183,305 @@ li {
 	  width: 100%;
 	}
 	.coretech_dataimg {
-		width: 566px;
+		width: 565px;
 		margin: 0 auto;
-		border: 1px solid red;
-		height: 476px;
-		background-image: url(1366-qiangdadeshujucaiji.jpg);
+		height: 475px;
+		background-image: url(qiangdadeshuju1366.png);
 	  background-size: cover;
-		background-color: #004dc6;
 	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 448px;
+		margin: 0 auto;
+		height: 431px;
+		background-image: url(rengongzhineng1366.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 1137px;
+		margin: 0 auto;
+		height: 573px;
+		background-image: url(zhineng1920.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:52px;
+		left:100px;
+		letter-spacing: 5px
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:110px;
+		letter-spacing: 5px;
+		left: 30px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 310px;
+		letter-spacing: 5px;
+		right: 4px
+	}
+	.shujucaijiwrap {
+		position: absolute;
+		top:70px;
+		left:186px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:250px;
+		left: -20px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:250px;
+		right: -20px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left: 170px
+	}
+	.neiwangwrap {
+		position: absolute;
+		width: 25%;
+		top:176px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 25%;
+		top:122px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 25%;
+		right: 50px;
+		bottom: 20px
 	}
 	.footerfont {
 		text-align: left;
 	}
 
 }
-@media screen and (min-width: 768px) and (max-width: 1365px) {
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.coretech_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.coretechmargin {
+		margin-top: 270px
+	}
+	.coretech_sectionthree {
+		background-image: url(coretechmodele3bg1366.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 676px;
+	  width: 100%;
+	}
+	.coretech_dataimg {
+		width: 565px;
+		margin: 0 auto;
+		height: 475px;
+		background-image: url(qiangdadeshuju1366.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 448px;
+		margin: 0 auto;
+		height: 431px;
+		background-image: url(rengongzhineng1366.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 1137px;
+		margin: 0 auto;
+		height: 573px;
+		background-image: url(zhineng1920.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:52px;
+		left:100px;
+		letter-spacing: 5px
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:110px;
+		letter-spacing: 5px;
+		left: 30px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 310px;
+		letter-spacing: 5px;
+		right: 4px
+	}
+	.shujucaijiwrap {
+		position: absolute;
+		top:70px;
+		left:186px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:250px;
+		left: -20px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:250px;
+		right: -20px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left: 170px
+	}
+	.neiwangwrap {
+		position: absolute;
+		width: 25%;
+		top:176px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 25%;
+		top:122px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 25%;
+		right: 50px;
+		bottom: 20px
+	}
+	.footerfont {
+		text-align: left;
+	}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.coretech_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		  background-size: cover;
+			background-color: #004dc6;
+		  background-position: center;
+			height: 768px;
+		  width: 100%;
+	}
+	.coretechmargin {
+		margin-top: 270px
+	}
+	.coretech_sectionthree {
+		background-image: url(coretechmodele3bg1366.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 676px;
+	  width: 100%;
+	}
+	.coretech_dataimg {
+		width: 535px;
+		margin: 0 auto;
+		height: 450px;
+		background-image: url(qiangdadeshuju940.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 343px;
+		margin: 0 auto;
+		height: 324px;
+		background-image: url(rengongzhineng940.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 939px;
+		margin: 0 auto;
+		height: 415px;
+		background-image: url(zhineng940.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:32px;
+		left:74px;
+		letter-spacing: 5px
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:95px;
+		letter-spacing: 5px;
+		left: 24px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 247px;
+		letter-spacing: 5px;
+		right: 4px
+	}
+	.shujucaijiwrap {
+		position: absolute;
+		top:54px;
+		left:134px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:189px;
+		left: -32px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:189px;
+		right: -32px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left: 117px
+	}
+
+	.neiwangwrap {
+		position: absolute;
+		width: 202px;
+		top:176px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 202px;
+		top:122px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 202px;
+		right: 50px;
+		bottom: 20px
+	}
+	.footerfont {
+		text-align: left;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.coretech_sectionone {
 		background-image: url(coretechbanner768.jpg);
 	  background-size: cover;
@@ -147,14 +502,86 @@ li {
 	  width: 100%;
 	}
 	.coretech_dataimg {
-		width: 334px;
+		width: 333px;
 		margin: 0 auto;
-		border: 1px solid red;
-		height: 276px;
-		background-image: url(768-qiangdadeshujucaiji.jpg);
+		height: 275px;
+		background-image: url(qiangdadeshuju768.png);
 	  background-size: cover;
-		background-color: #004dc6;
 	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 258px;
+		margin: 0 auto;
+		height: 245px;
+		background-image: url(rengongzhineng768.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 718px;
+		margin: 0 auto;
+		height: 364px;
+		background-image: url(zhineng768.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:32px;
+		left:64px;
+		letter-spacing: 2px
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:70px;
+		letter-spacing: 2px;
+		left: 1px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 247px;
+		letter-spacing: 2px;
+		right: 4px
+	}
+
+	.shujucaijiwrap {
+		position: absolute;
+		top:39px;
+		left:86px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:144px;
+		left: -43px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:144px;
+		right: -43px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left: 75px
+	}
+	.neiwangwrap {
+		position: absolute;
+		width: 193px;
+		top: 93px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 193px;
+		top: 44px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 193px;
+		right: 25px;
+		bottom: 0
 	}
 	.footerfont {
 		text-align: left;
@@ -178,18 +605,91 @@ li {
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
-		height: 363px;
+		height: 430px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
 		width: 190px;
 		margin: 0 auto;
-		border: 1px solid red;
 		height: 201px;
-		background-image: url(320-qiangdadeshujucaiji.jpg);
+		background-image: url(qiangdadeshuju320.png);
 	  background-size: cover;
-		background-color: #004dc6;
 	  background-position: center;
+	}
+	.coretech_zengqiangimg {
+		position: relative;
+		width: 192px;
+		margin: 0 auto;
+		height: 191px;
+		background-image: url(rengongzhineng320.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.coretech_zhinengimg {
+		position: relative;
+		width: 279px;
+		margin: 0 auto;
+		height: 162px;
+		background-image: url(zhineng320.png);
+	  background-size: cover;
+	  background-position: center;
+	}
+	.zhiguanjiemianwrap {
+		position: absolute;
+		top:21px;
+		left:-15px;
+	}
+	.lingguobianjiewrap {
+		position: absolute;
+		bottom:43px;
+		width: 78px;
+		left: -13px
+	}
+	.quanfangmianwrap {
+		position: absolute;
+		bottom: 94px;
+		right: -33px;
+		width: 94px
+	}
+	.shujucaijiwrap {
+		position: absolute;
+		top:22px;
+		left:64px;
+	}
+	.shangyejiazhiwrap {
+		position: absolute;
+		top:101px;
+		left: -38px
+	}
+	.zhinengyinqinwrap {
+		position: absolute;
+		top:101px;
+		right: -38px
+	}
+	.ziranyuyanwrap {
+		position: absolute;
+		bottom: -40px;
+		left:50px
+	}
+	.neiwangwrap {
+		position: absolute;
+		width: 38%;
+		top: 112px;
+	}
+	.waiwangwrap {
+		position: absolute;
+		width: 23%;
+		top: 10px;
+		right: 0
+	}
+	.disanfangwrap {
+		position: absolute;
+		width: 37%;
+		right: -7px;
+		bottom: -44px
+	}
+	.shoujifont {
+		text-align: left !important;
 	}
 	.footerfont {
 		text-align: center;
@@ -204,5 +704,11 @@ li {
     width: 100%;
     left:-2px;
     //max-width: 320px;
+	}
+	.shoujifontsize {
+		font-size: 10px
+	}
+	.shoujifontsize1 {
+		font-size: 14px
 	}
 }
