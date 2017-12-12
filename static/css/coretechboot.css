@@ -22,32 +22,11 @@ li {
  padding:0;
  margin:0;
 }
-.margintop {
-	margin-top:6em;
-}
 .footermargintop {
 	margin-top: 3em;
 }
-.marginbottom {
-	margin-bottom: 6em
-}
-.titlemarginbottom {
-	margin-bottom: 2em
-}
-.trybtn {
-	text-decoration: none;
-  text-align: center;
-  background-color: rgba(0,0,0,0);
-  color: white;
-  width: 240px;
-  height: 47px;
-  border: 1px solid white;
-  margin: 0 auto;
 
-}
-.h3marin {
-	margin-top: 11px
-}
+
 .coretech_caijiwrap {
 	position: relative;
 }
@@ -57,6 +36,78 @@ li {
 
 
 @media screen and (min-width:1920px) {
+	.bigfont {
+		font-size: 24px
+	}
+	.quanqiubigfont {
+		font-size: 46px
+	}
+	.strbigfont {
+		font-size: 80px;
+		margin-bottom: 60px
+	}
+	.kaishibtn {
+		font-size: 32px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 250px;
+	  height: 50px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+	.h3marin {
+		margin-top: 8px
+	}
+	.contentwrap {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.contentwrapteshu {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.qiangdabigfont {
+		font-size: 36px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 70px;
+	  margin-top: 30px;
+	}
+	.zhenghebigfont {
+		font-size: 20px
+	}
+	.shujujierubigfont {
+		font-size: 26px
+	}
+	.neiwangbigfont {
+		font-size: 24px
+	}
+	.dianzibigfont {
+		font-size: 18px
+	}
+	.shujucaijibigfont {
+		font-size: 16px
+	}
+	.rengongzhinengbigfont {
+		font-size: 28px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 24px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 28px
+	}
+	.guanyuwomenbigfont {
+		font-size: 22px;
+		margin-bottom: 30px
+	}
+	.gongsijianjiebigfont {
+		font-size: 16px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner1920.jpg);
 	  background-size: cover;
@@ -143,8 +194,8 @@ li {
 	#core_caijifontke {
 			z-index: 1000;
 	    position: absolute;
-	    top: 234px;
-	    left: 508px;
+	    top: 230px;
+	    left: 500px;
 	    text-align: center;
 	}
 	.core_caijifontdatakeshihua {
@@ -183,30 +234,31 @@ li {
 		left: 30px
 	}
 	.quanfangmianwrap {
+		width: 300px;
 		position: absolute;
-		bottom: 310px;
+		bottom: 204px;
 		letter-spacing: 5px;
-		right: 4px
+		right: -38px
 	}
 	.shujucaijiwrap {
 		position: absolute;
 		top:70px;
-		left:186px;
+		left:192px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
-		top:250px;
+		top:254px;
 		left: -20px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
-		top:250px;
+		top:254px;
 		right: -20px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
 		bottom: -40px;
-		left: 170px
+		left: 177px
 	}
 	.neiwangwrap {
 		position: absolute;
@@ -241,7 +293,7 @@ li {
   	z-index: 1000;
     position: absolute;
     top: 76px;
-    left: 33px;
+    left: 27px;
     text-align: center;
     letter-spacing: 2px;
     //width: 138px;
@@ -268,9 +320,84 @@ li {
   .logoimg2,.logoimg4,.logoimg3 {
   	display: none;
   }
-
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 50px
+	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.bigfont {
+		font-size: 24px
+	}
+	.quanqiubigfont {
+		font-size: 46px
+	}
+	.strbigfont {
+		font-size: 80px;
+		margin-bottom: 60px
+	}
+	.kaishibtn {
+		font-size: 32px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 250px;
+	  height: 50px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+	.h3marin {
+		margin-top: 8px
+	}
+	.contentwrap {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.contentwrapteshu {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.qiangdabigfont {
+		font-size: 36px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 70px;
+	  margin-top: 30px;
+	}
+	.zhenghebigfont {
+		font-size: 20px
+	}
+	.shujujierubigfont {
+		font-size: 26px
+	}
+	.neiwangbigfont {
+		font-size: 24px
+	}
+	.dianzibigfont {
+		font-size: 18px
+	}
+	.shujucaijibigfont {
+		font-size: 16px
+	}
+	.rengongzhinengbigfont {
+		font-size: 28px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 24px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 28px
+	}
+	.guanyuwomenbigfont {
+		font-size: 22px
+	}
+	.gongsijianjiebigfont {
+		font-size: 16px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner1366.jpg);
 	  background-size: cover;
@@ -287,7 +414,7 @@ li {
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
-		height: 676px;
+		height: 962px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -334,6 +461,10 @@ li {
 		color: black;
 		width: 184px
 	}
+	.rengongfont{
+		text-decoration: none;
+    color: #01296d;
+	}
 	.rengongfont:hover{
 		text-decoration: none;
     color: #01296d;
@@ -359,8 +490,8 @@ li {
 	#core_caijifontke {
 			z-index: 1000;
 	    position: absolute;
-	    top: 234px;
-	    left: 508px;
+	    top: 230px;
+	    left: 500px;
 	    text-align: center;
 	}
 	.core_caijifontdatakeshihua {
@@ -390,30 +521,31 @@ li {
 		left: 30px
 	}
 	.quanfangmianwrap {
+		width: 300px;
 		position: absolute;
-		bottom: 310px;
+		bottom: 204px;
 		letter-spacing: 5px;
-		right: 4px
+		right: -38px
 	}
 	.shujucaijiwrap {
 		position: absolute;
-		top:70px;
-		left:186px;
+		top:74px;
+		left:193px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
-		top:250px;
+		top:258px;
 		left: -20px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
-		top:250px;
+		top:257px;
 		right: -20px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
 		bottom: -40px;
-		left: 170px
+		left: 180px
 	}
 	.neiwangwrap {
 		position: absolute;
@@ -464,7 +596,7 @@ li {
   	z-index: 1000;
     position: absolute;
     top: 62px;
-    left: 21px;
+    left: 14px;
     text-align: center;
     letter-spacing: 2px;
     //width: 138px;
@@ -475,10 +607,85 @@ li {
   .logoimg2,.logoimg4,.logoimg3 {
   	display: none;
   }
- 
-
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 50px
+	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.bigfont {
+		font-size: 24px
+	}
+	.quanqiubigfont {
+		font-size: 46px
+	}
+	.strbigfont {
+		font-size: 80px;
+		margin-bottom: 60px
+	}
+	.kaishibtn {
+		font-size: 32px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 250px;
+	  height: 50px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+	.h3marin {
+		margin-top: 8px
+	}
+	.contentwrap {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.contentwrapteshu {
+		padding-top: 144px;
+		padding-bottom: 144px
+	}
+
+	.qiangdabigfont {
+		font-size: 36px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 70px;
+	  margin-top: 30px;
+	}
+	.zhenghebigfont {
+		font-size: 20px
+	}
+	.shujujierubigfont {
+		font-size: 26px
+	}
+	.neiwangbigfont {
+		font-size: 24px
+	}
+	.dianzibigfont {
+		font-size: 18px
+	}
+	.shujucaijibigfont {
+		font-size: 16px
+	}
+	.rengongzhinengbigfont {
+		font-size: 28px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 24px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 28px
+	}
+	.guanyuwomenbigfont {
+		font-size: 22px
+	}
+	.gongsijianjiebigfont {
+		font-size: 16px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner1366.jpg);
 		background-size: cover;
@@ -495,7 +702,7 @@ li {
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
-		height: 676px;
+		height: 950px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -519,7 +726,7 @@ li {
   	z-index: 1000;
     position: absolute;
     top: 76px;
-    left: 33px;
+    left: 29px;
     text-align: center;
     letter-spacing: 2px;
     //width: 138px;
@@ -560,6 +767,10 @@ li {
 		color: black;
 		width: 184px
 	}
+	.rengongfont{
+		text-decoration: none;
+    color: #01296d;
+	}
 	.rengongfont:hover{
 		text-decoration: none;
     color: #01296d;
@@ -585,8 +796,8 @@ li {
 	#core_caijifontke {
 			z-index: 1000;
 	    position: absolute;
-	    top: 234px;
-	    left: 508px;
+	    top: 230px;
+	    left: 500px;
 	    text-align: center;
 	}
 	.core_caijifontdatakeshihua {
@@ -616,30 +827,31 @@ li {
 		left: 30px
 	}
 	.quanfangmianwrap {
+		width: 300px;
 		position: absolute;
-		bottom: 310px;
+		bottom: 204px;
 		letter-spacing: 5px;
-		right: 4px
+		right: -38px
 	}
 	.shujucaijiwrap {
 		position: absolute;
-		top:70px;
-		left:186px;
+		top:74px;
+		left:194px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
-		top:250px;
+		top:260px;
 		left: -20px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
-		top:250px;
+		top:260px;
 		right: -20px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
 		bottom: -40px;
-		left: 170px
+		left: 180px
 	}
 	.neiwangwrap {
 		position: absolute;
@@ -683,9 +895,84 @@ li {
   .logoimg2,.logoimg4,.logoimg3 {
   	display: none;
   }
-
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 50px
+	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.bigfont {
+		font-size: 22px
+	}
+	.quanqiubigfont {
+		font-size: 36px
+	}
+	.strbigfont {
+		font-size: 60px;
+		margin-bottom: 50px
+	}
+	.kaishibtn {
+		font-size: 26px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 212px;
+	  height: 40px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+	.h3marin {
+		margin-top: 6px
+	}
+	.contentwrap {
+		padding-top: 110px;
+		padding-bottom: 110px
+	}
+	.contentwrapteshu {
+		padding-top: 110px;
+		padding-bottom: 110px
+	}
+	.qiangdabigfont {
+		font-size: 32px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 50px;
+	  margin-top: 26px;
+	}
+	.zhenghebigfont {
+		font-size: 24px
+	}
+	.shujujierubigfont {
+		font-size: 24px
+	}
+	.neiwangbigfont {
+		font-size: 22px
+	}
+	.dianzibigfont {
+		font-size: 16px
+	}
+	.shujucaijibigfont {
+		font-size: 16px
+	}
+	.rengongzhinengbigfont {
+		font-size: 24px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 22px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 24px
+	}
+	.guanyuwomenbigfont {
+		font-size: 20px
+	}
+	.gongsijianjiebigfont {
+		font-size: 16px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner1366.jpg);
 		  background-size: cover;
@@ -767,6 +1054,10 @@ li {
 		color: black;
 		width: 184px
 	}
+	.rengongfont{
+		text-decoration: none;
+    color: #01296d;
+	}
 	.rengongfont:hover{
 		text-decoration: none;
     color: #01296d;
@@ -820,33 +1111,34 @@ li {
 		position: absolute;
 		bottom:95px;
 		letter-spacing: 5px;
-		left: 24px
+		left: 24px;
 	}
 	.quanfangmianwrap {
 		position: absolute;
-		bottom: 247px;
+		bottom: 154px;
 		letter-spacing: 5px;
-		right: 4px
+		right: -42px;
+		width: 300px
 	}
 	.shujucaijiwrap {
 		position: absolute;
 		top:54px;
-		left:134px;
+		left:142px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
-		top:189px;
+		top:192px;
 		left: -32px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
-		top:189px;
+		top:192px;
 		right: -32px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
 		bottom: -40px;
-		left: 117px
+		left: 127px
 	}
 
 	.neiwangwrap {
@@ -893,9 +1185,91 @@ li {
   .logoimg1,.logoimg3,.logoimg4{
   	display: none;
   }
-
+  .padlogomarigin {
+  	margin-top: 4px
+  }
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 36px
+	}
+	.padpromargin {
+		margin-right: 40px;
+		margin-left: 20px
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.bigfont {
+		font-size: 14px
+	}
+	.quanqiubigfont {
+		font-size: 26px
+	}
+	.strbigfont {
+		font-size: 46px;
+		margin-bottom: 40px
+	}
+	.kaishibtn {
+		font-size: 18px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 125px;
+	  height: 26px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+	.h3marin {
+		margin-top: 3px
+	}
+	.contentwrap {
+		padding-top: 60px;
+		padding-bottom: 60px
+	}
+	.contentwrapteshu {
+		padding-top: 60px;
+		padding-bottom: 100px
+	}
+	.qiangdabigfont {
+		font-size: 24px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 28px;
+	  margin-top: 15px;
+	}
+	.zhenghebigfont {
+		font-size: 18px
+	}
+	.shujujierubigfont {
+		font-size: 18px
+	}
+	.neiwangbigfont {
+		font-size: 16px
+	}
+	.dianzibigfont {
+		font-size: 12px
+	}
+	.shujucaijibigfont {
+		font-size: 14px
+	}
+	.rengongzhinengbigfont {
+		font-size: 18px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 16px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 18px
+	}
+	.guanyuwomenbigfont {
+		font-size: 14px
+	}
+	.gongsijianjiebigfont {
+		font-size: 12px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner768.jpg);
 	  background-size: cover;
@@ -912,7 +1286,7 @@ li {
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
-		height: 676px;
+		height: 482px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -935,11 +1309,9 @@ li {
   .core_caijifont {
   	z-index: 1000;
     position: absolute;
-    top: 29px;
-    left: 10px;
+    top: 35px;
+    left: 11px;
     text-align: center;
-    letter-spacing: 2px;
-    //width: 138px;
   }
 	.coretech_zengqiangimg {
 		position: relative;
@@ -977,8 +1349,12 @@ li {
 		color: black;
 		width: 184px
 	}
-	.padfont {
+	/*.padfont {
 		font-size: 20px
+	}*/
+	.rengongfont{
+		text-decoration: none;
+    color: #01296d;
 	}
 	.rengongfont:hover{
 		text-decoration: none;
@@ -1006,7 +1382,7 @@ li {
 		z-index: 1000;
 	  position: absolute;
 	  top: 136px;
-	  left: 306px;
+	  left: 311px;
 	  text-align: center;
 	}
 	.core_caijifontdatakeshihua {
@@ -1033,35 +1409,35 @@ li {
 		position: absolute;
 		bottom:70px;
 		letter-spacing: 2px;
-		left: 1px
+		left: 16px
 	}
 	.quanfangmianwrap {
 		position: absolute;
-		bottom: 197px;
+		bottom: 127px;
 		letter-spacing: 2px;
-		right: 4px;
+		right: 15px;
 		width: 120px
 	}
 
 	.shujucaijiwrap {
 		position: absolute;
 		top:39px;
-		left:86px;
+		left:100px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
 		top:144px;
-		left: -43px
+		left: -31px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
 		top:144px;
-		right: -43px
+		right: -27px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
 		bottom: -40px;
-		left: 75px
+		left: 88px
 	}
 	.neiwangwrap {
 		position: absolute;
@@ -1103,11 +1479,81 @@ li {
   	display: none
   }
   .padlogomarigin {
-  	margin-top: 6px
+  	margin-top: 2px
   }
-
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 30px
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.quanqiubigfont {
+		font-size: 14px
+	}
+	.strbigfont {
+		font-size: 26px;
+		margin-bottom: 22px
+	}
+	.kaishibtn {
+		font-size: 10px
+	}
+	.trybtn {
+		text-decoration: none;
+	  text-align: center;
+	  background-color: rgba(0,0,0,0);
+	  color: white;
+	  width: 74px;
+	  height: 16px;
+	  border: 1px solid white;
+	  margin: 0 auto;
+	}
+
+	.h3marin {
+		margin-top: 1px
+	}
+	.contentwrap {
+		padding-top: 50px;
+		padding-bottom: 60px
+	}
+	.contentwrapteshu {
+		padding-top: 50px;
+		padding-bottom: 100px
+	}
+	.qiangdabigfont {
+		font-size: 16px
+	}
+	.titlemarginbottom {
+	  margin-bottom: 28px;
+	  margin-top: 14px;
+	}
+	.zhenghebigfont {
+		font-size: 10px
+	}
+	.shujujierubigfont {
+		font-size: 12px
+	}
+	.neiwangbigfont {
+		font-size: 10px
+	}
+	.dianzibigfont {
+		font-size: 8px
+	}
+	.shujucaijibigfont {
+		font-size: 10px
+	}
+	.rengongzhinengbigfont {
+		font-size: 12px
+	}
+	.zhiguanjiemianbigfont {
+		font-size: 8px
+	}
+	.keshihuajiemianbigfont {
+		font-size: 12px
+	}
+	.gongsijianjiebigfont {
+		font-size: 10px
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner320.jpg);
 	  background-size: cover;
@@ -1147,7 +1593,7 @@ li {
   .core_caijifont {
   	z-index: 1000;
     position: absolute;
-    top: 2px;
+    top: 6px;
     left: 3px;
     text-align: center;
     letter-spacing: 2px;
@@ -1189,8 +1635,12 @@ li {
 		color: black;
 		width: 184px
 	}
-	.padfont {
+	/*.padfont {
 		font-size: 20px
+	}*/
+	.rengongfont{
+		text-decoration: none;
+    color: #01296d;
 	}
 	.rengongfont:hover{
 		text-decoration: none;
@@ -1218,8 +1668,8 @@ li {
 	#core_caijifontke {
 		z-index: 1000;
 	  position: absolute;
-	  top: 40px;
-	  left: 105px;
+	  top: 44px;
+	  left: 110px;
 	  text-align: center;
 	}
 	.core_caijifontdatakeshihua {
@@ -1239,39 +1689,39 @@ li {
 	.zhiguanjiemianwrap {
 		position: absolute;
 		top:21px;
-		left:-15px;
+		left:-7px;
 	}
 	.lingguobianjiewrap {
 		position: absolute;
 		bottom:43px;
-		width: 78px;
-		left: -13px
+		width: 70px;
+		left: -6px
 	}
 	.quanfangmianwrap {
 		position: absolute;
 		bottom: 94px;
-		right: -33px;
+		right: -29px;
 		width: 94px
 	}
 	.shujucaijiwrap {
 		position: absolute;
-		top:22px;
-		left:64px;
+		top:25px;
+		left:70px;
 	}
 	.shangyejiazhiwrap {
 		position: absolute;
-		top:101px;
+		top:103px;
 		left: -38px
 	}
 	.zhinengyinqinwrap {
 		position: absolute;
-		top:101px;
+		top:103px;
 		right: -38px
 	}
 	.ziranyuyanwrap {
 		position: absolute;
-		bottom: -40px;
-		left:50px
+		bottom: -34px;
+		left:58px
 	}
 	.neiwangwrap {
 		position: absolute;
@@ -1307,12 +1757,12 @@ li {
     left:-2px;
     //max-width: 320px;
 	}
-	.shoujifontsize {
+	/*.shoujifontsize {
 		font-size: 10px
-	}
-	.shoujifontsize1 {
+	}*/
+	/*.shoujifontsize1 {
 		font-size: 14px
-	}
+	}*/
 	.phonewrap {
 		width: 202px;
 		margin: 0 auto;
@@ -1330,10 +1780,20 @@ li {
   .img5,.img6,.img7 {
   	display: none;
   }
-  .logoimg4 {
+  /*.logoimg4{
   	height: 16px
-  }
-  .logoimg1,.logoimg2, .logoimg3{
+  }*/
+  .logoimg1,.logoimg2, .logoimg3,.logoimg4 {
   	display: none
   }
+  footer {
+		background-color: #001431;
+		color: rgba(255,255,255,0.5);
+		padding-top: 30px
+	}
+	.guanyuwomenbigfont {
+		font-size: 12px
+	}
+ 
+
 }
