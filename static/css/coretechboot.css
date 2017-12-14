@@ -34,8 +34,111 @@ li {
 	border-top: 1px solid rgba(255,255,255,0.4);
 }
 
+.fontright {
+	text-align: right
+}
+.fontcolorblue {
+	color: #6a9ef9;
+}
+.zhijian_sectiontwo {
+	background-color: #eaf3ff
+}
+.borderright {
+	border-right: 1px solid #bfbfbf;
 
+}
+.borderbottom {
+		border-bottom: 1px solid #bfbfbf
+}
+.index_sectionfour {
+		background-color: #eeeeee
+}
 @media screen and (min-width:1920px) {
+	.circle {
+		width: 66px;
+		height: 66px;
+		border-radius: 34px;
+		background-color: blue
+	}
+	.lineheigh {
+		height: 100px;
+		padding-top:20px;
+	}
+	.timelinepadding {
+		padding-top: 10px
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.guanliimg {
+		height: 337px
+	}
+	.hezuohuobanimg {
+		height: 130px
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.fontmargin {
+		margin-top: 20px
+	}
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.hangyewrap {
+		width: 70%;
+		margin: 0 auto 
+	}
+	.addresswrap {
+		height: 300px;
+		border-right: 1px solid #bfbfbf
+	}
+	.mapwrap {
+		padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 20px
+	}
+
+	.paralineheight {
+		line-height: 28px
+	}
+	.hangyelogo {
+		height: 90px;
+		margin: 45px
+	}
+	.hanyyeyuanwrap {
+		width: 180px;
+		height: 180px;
+		border-radius: 90px;
+		background-color: white;
+		margin: 0 auto;
+		margin-bottom: 40px
+	}
+
+	.companyimgindex {
+		height: 60px;
+		margin-bottom: 40px
+	}
+	.kehuliucun {
+		height: 78px;
+		margin-top:120px;
+	}
+	.kehukoubeileftwrap {
+		padding-right: 40px;
+		margin-bottom: 50px
+	}
+	.kehukoubeirightwrap {
+		padding-left: 40px;
+		margin-bottom: 50px
+	}
 	.bigfont {
 		font-size: 24px
 	}
@@ -66,6 +169,9 @@ li {
 		padding-top: 144px;
 		padding-bottom: 144px
 	}
+	.contentbottom {
+		padding-bottom: 144px
+	}
 	.contentwrapteshu {
 		padding-top: 144px;
 		padding-bottom: 144px
@@ -85,6 +191,9 @@ li {
 	}
 	.neiwangbigfont {
 		font-size: 24px
+	}
+	.hangyebigfont {
+		font-size: 22px
 	}
 	.dianzibigfont {
 		font-size: 18px
@@ -109,7 +218,7 @@ li {
 		font-size: 16px
 	}
 	.coretech_sectionone {
-		background-image: url(coretechbanner1920.jpg);
+		background-image: url(indexbanner1920.jpg);
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
@@ -120,12 +229,67 @@ li {
 		margin-top: 380px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg1920.jpg);
+		//background-image: url(coretechmodele3bg1920.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
 		height: 868px;
 	  width: 100%;
+	}
+	.kuhuliucunbgwrap {
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {		
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.bgkuhuliucunwrap {
+		background-image: url(kehu1920.jpg);
+	}
+	.zhijianbg {
+		background-image: url(kefu1920.jpg);
+	}
+	.yingxiaobg {
+		background-image: url(zhineng1920.jpg);
+	}
+	.celuebg {
+		background-image: url(celue1920.jpg);
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 88px;
+    bottom: -63px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 106px;
+    text-align: center;
+    color: white;
+	}
+	.rowmargin {
+		margin-bottom: 60px
 	}
 	.try {
 		height: 640px
@@ -327,6 +491,155 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 88px;
+    bottom: -63px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 106px;
+    text-align: center;
+    color: white;
+	}
+	.mapwrap {
+		padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 20px
+	}
+	.lineheigh {
+		height: 100px;
+		padding-top:20px;
+	}
+	.timelinepadding {
+		padding-top: 10px
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.guanliimg {
+		height: 337px
+	}
+	.hezuohuobanimg {
+		height: 130px !important
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.paralineheight {
+		line-height: 28px
+	}
+	.fontmargin {
+		margin-top: 20px
+	}
+	.lineheigh {
+		height: 100px
+	}
+	.circle {
+		width: 66px;
+		height: 66px;
+		border-radius: 34px;
+		background-color: blue
+	}
+	.hangyelogo {
+		height: 90px;
+		margin: 45px
+	}
+	.hanyyeyuanwrap {
+		width: 180px;
+		height: 180px;
+		border-radius: 90px;
+		background-color: white;
+		margin: 0 auto;
+		margin-bottom: 40px
+	}
+	.hangyewrap {
+		width: 70%;
+		margin: 0 auto
+	}
+	.companyimgindex {
+		height: 60px;
+		margin-bottom: 40px
+	}
+	.kehuliucun {
+		height: 78px;
+		margin-top:120px;
+	}
+	.rowmargin {
+		margin-bottom: 60px
+	}
+	.bgkuhuliucunwrap {
+		background-image: url(kehu1920.jpg);
+	}
+	.zhijianbg {
+		background-image: url(kefu1920.jpg);
+	}
+	.yingxiaobg {
+		background-image: url(zhineng1920.jpg);
+	}
+	.celuebg {
+		background-image: url(celue1920.jpg);
+	}
+	.kuhuliucunbgwrap {
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {		
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kehukoubeileftwrap {
+		padding-right: 40px;
+		//padding-bottom: 50px
+	}
+	.kehukoubeirightwrap {
+		padding-left: 40px;
+		margin-bottom: 30px
+	}
+	
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
 	.bigfont {
 		font-size: 24px
 	}
@@ -357,6 +670,9 @@ li {
 		padding-top: 144px;
 		padding-bottom: 144px
 	}
+	.contentbottom {
+		padding-bottom: 144px
+	}
 	.contentwrapteshu {
 		padding-top: 144px;
 		padding-bottom: 144px
@@ -377,6 +693,10 @@ li {
 	.neiwangbigfont {
 		font-size: 24px
 	}
+	.hangyebigfont {
+		font-size: 22px
+	}
+
 	.dianzibigfont {
 		font-size: 18px
 	}
@@ -410,11 +730,11 @@ li {
 		margin-top: 270px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg1366.jpg);
+		//background-image: url(coretechmodele3bg1366.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
-		height: 962px;
+		height: 688px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -614,6 +934,151 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 88px;
+    bottom: -63px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 106px;
+    text-align: center;
+    color: white;
+	}
+	.mapwrap {
+		padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 20px
+	}
+	.circle {
+		width: 66px;
+		height: 66px;
+		border-radius: 34px;
+		background-color: blue
+	}
+	.lineheigh {
+		height: 100px;
+		padding-top:20px;
+	}
+	.timelinepadding {
+		padding-top: 10px
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.guanliimg {
+		height: 337px
+	}
+	.hezuohuobanimg {
+		height: 130px
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.paralineheight {
+		line-height: 28px
+	}
+	.fontmargin {
+		margin-top: 20px
+	}
+	.hangyelogo {
+		height: 90px;
+		margin: 45px
+	}
+	.hanyyeyuanwrap {
+		width: 180px;
+		height: 180px;
+		border-radius: 90px;
+		background-color: white;
+		margin: 0 auto;
+		margin-bottom: 40px
+	}
+	.hangyewrap {
+		width: 70%;
+		margin: 0 auto
+	}
+	.companyimgindex {
+		height: 60px;
+		margin-bottom: 40px
+	}
+	.kehuliucun {
+		height: 78px;
+		margin-top:120px;
+	}
+	.rowmargin {
+		margin-bottom: 60px
+	}
+	.bgkuhuliucunwrap {
+		background-image: url(kehu1920.jpg);
+	}
+	.zhijianbg {
+		background-image: url(kefu1920.jpg);
+	}
+	.yingxiaobg {
+		background-image: url(zhineng1920.jpg);
+	}
+	.celuebg {
+		background-image: url(celue1920.jpg);
+	}
+	.kuhuliucunbgwrap {
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {		
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 280px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kehukoubeileftwrap {
+		padding-right: 40px;
+		margin-bottom: 50px
+	}
+	.kehukoubeirightwrap {
+		padding-left: 40px;
+		margin-bottom: 30px
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
 	.bigfont {
 		font-size: 24px
 	}
@@ -642,6 +1107,9 @@ li {
 	}
 	.contentwrap {
 		padding-top: 144px;
+		padding-bottom: 144px
+	}
+	.comtenbottom {
 		padding-bottom: 144px
 	}
 	.contentwrapteshu {
@@ -683,6 +1151,9 @@ li {
 	.guanyuwomenbigfont {
 		font-size: 22px
 	}
+	.hangyebigfont {
+		font-size: 22px
+	}
 	.gongsijianjiebigfont {
 		font-size: 16px
 	}
@@ -698,11 +1169,11 @@ li {
 		margin-top: 270px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg1366.jpg);
+		//background-image: url(coretechmodele3bg1366.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
-		height: 950px;
+		height: 688px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -902,6 +1373,134 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.fontmargin {
+		margin-top: 18px
+	}
+	.hanyyeyuanwrap {
+		width: 202px;
+    height: 202px;
+    border-radius: 101px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+	}
+	.companyimgindex {
+		height: 80px;
+		margin-bottom: 30px
+	}
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 88px;
+    bottom: -63px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 106px;
+    text-align: center;
+    color: white;
+	}
+	.mapwrap {
+		padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 20px
+	}
+
+	.lineheigh {
+		height: 100px;
+		padding-top:20px;
+	}
+	.timelinepadding {
+		padding-top: 5px
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.guanliimg {
+		height: 266px
+	}
+	.hezuohuobanimg {
+		height: 105px
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.lineheigh {
+		height: 80px
+	}
+	.circle {
+		width: 48px;
+		height: 48px;
+		border-radius: 24px;
+		background-color: yellow
+	}
+	.hangyewrap {
+		width: 70%;
+		margin: 0 auto
+	}
+	.rowmargin {
+		margin-bottom: 60px
+	}
+	.kehukoubeileftwrap {
+		padding-right: 40px;
+		margin-bottom: 40px
+	}
+	.kehukoubeirightwrap {
+		padding-left: 40px;
+		margin-bottom: 40px
+	}
+	.kuhuliucunbgwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 200px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 200px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 60px;
+    text-align: center;
+    color: white;
+	}
 	.bigfont {
 		font-size: 22px
 	}
@@ -915,6 +1514,7 @@ li {
 	.kaishibtn {
 		font-size: 26px
 	}
+	
 	.trybtn {
 		text-decoration: none;
 	  text-align: center;
@@ -930,6 +1530,9 @@ li {
 	}
 	.contentwrap {
 		padding-top: 110px;
+		padding-bottom: 110px
+	}
+	.contentbottom {
 		padding-bottom: 110px
 	}
 	.contentwrapteshu {
@@ -958,6 +1561,9 @@ li {
 	.shujucaijibigfont {
 		font-size: 16px
 	}
+	.hangyebigfont {
+		font-size: 18px
+	}
 	.rengongzhinengbigfont {
 		font-size: 24px
 	}
@@ -985,11 +1591,11 @@ li {
 		margin-top: 270px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg1366.jpg);
+		//background-image: url(coretechmodele3bg1366.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
-		height: 676px;
+		height: 688px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -1199,6 +1805,134 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.fontmargin {
+		margin-top: 18px
+	}
+	.hanyyeyuanwrap {
+		width: 162px;
+    height: 162px;
+    border-radius: 81px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 25px;
+	}
+	.companyimgindex {
+		height: 50px;
+		margin-bottom: 20px
+	}
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.btnwrap {
+		position: absolute;
+    right: 88px;
+    bottom: -27px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 75px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 55px;
+    bottom: -48px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 86px;
+    text-align: center;
+    color: white;
+	}
+	.mapwrap {
+		padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 20px
+	}
+	.lineheigh {
+		height: 60px;
+		padding-top:10px;
+	}
+	.timelinepadding {
+		padding-top: 2px
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.guanliimg {
+		height: 197px
+	}
+	.hezuohuobanimg {
+		height: 77px
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.circle {
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		background-color: yellow
+	}
+	.timelinewrap {
+		width: 100%;
+		margin: 0 auto
+	}
+	.hangyewrap {
+		width: 75%;
+		margin: 0 auto
+	}
+	.rowmargin {
+		margin-bottom: 60px
+	}
+	.kehukoubeileftwrap {
+		padding-right: 40px;
+		margin-bottom: 20px
+	}
+	.kehukoubeirightwrap {
+		padding-left: 40px;
+		margin-bottom: 20px
+	}
+	.kuhuliucunbgwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 200px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 200px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.btnwrap {
+		position: absolute;
+    right: 58px;
+    bottom: -27px;
+    width: 83%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 60px;
+    text-align: center;
+    color: white;
+	}
 	.bigfont {
 		font-size: 14px
 	}
@@ -1229,6 +1963,10 @@ li {
 		padding-top: 60px;
 		padding-bottom: 60px
 	}
+	.contentbottom {
+		padding-bottom: 60px
+	}
+
 	.contentwrapteshu {
 		padding-top: 60px;
 		padding-bottom: 100px
@@ -1237,7 +1975,7 @@ li {
 		font-size: 24px
 	}
 	.titlemarginbottom {
-	  margin-bottom: 28px;
+	  margin-bottom: 30px;
 	  margin-top: 15px;
 	}
 	.zhenghebigfont {
@@ -1251,6 +1989,9 @@ li {
 	}
 	.dianzibigfont {
 		font-size: 12px
+	}
+	.hangyebigfont {
+		font-size: 14px
 	}
 	.shujucaijibigfont {
 		font-size: 14px
@@ -1282,9 +2023,9 @@ li {
 		margin-top: 380px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg768.jpg);
+		//background-image: url(coretechmodele3bg768.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
 		height: 482px;
 	  width: 100%;
@@ -1349,9 +2090,6 @@ li {
 		color: black;
 		width: 184px
 	}
-	/*.padfont {
-		font-size: 20px
-	}*/
 	.rengongfont{
 		text-decoration: none;
     color: #01296d;
@@ -1488,6 +2226,147 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.shoujikoubeimarginbottom {
+		margin-bottom: 25px
+	}
+	.shoujimarginbottom {
+		margin-bottom: 45px !important
+	}
+	.hangyebigfont {
+		font-size: 12px
+	}
+	.hanyyeyuanwrap {
+		width: 74px;
+    height: 74px;
+    border-radius: 37px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+	}
+	.companyimgindex {
+		height: 40px;
+		margin-bottom: 10px
+	}
+	.shoujimargin {
+		margin-top: 80px;
+		margin-bottom: 60px
+	}
+	.paraleftmargin {
+		padding-left: 40px;
+		width: 90%
+	}
+	.btnwrap {
+		position: absolute;
+    right: 55px;
+    bottom: -24px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 45px;
+    text-align: center;
+    color: white;
+	}
+	.btnwrap2 {
+		position: absolute;
+    right: 55px;
+    bottom: -48px;
+    width: 85%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 86px;
+    text-align: center;
+    color: white;
+	}
+	.borderrightnone {
+		border-right:none !important;
+	}
+	.mapwrap {
+		padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #227af7;
+    color: white;
+    padding-left: 5px
+	}
+	.lineheigh {
+		height: 80px;
+		padding-top:10px;
+	}
+	.timelinepadding {
+		padding-top: 10px
+	}
+	.shourightpadding {
+		padding-top: 0 !important
+	}
+	.xiaochupadding {
+		padding:0;
+		margin: 0;
+	}
+	.shoujilast {
+		width: 50%;
+		margin: 0 auto;
+		margin-left: 25%;
+		margin-top: 8%
+	}
+	.shoujizhongjian {
+		margin-top:8%;
+	}
+	.portparttwomargin {
+		margin-top: 30px
+	}
+	.portwrap {
+		border: 1px solid #227af7;
+	}
+	.portnamewrap {
+		background-color: #227af7;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+	.guanliimg {
+		height: 161px
+	}
+	.hezuohuobanimg {
+		height: 35px
+	}
+	.circle {
+		width: 36px;
+		height: 36px;
+		border-radius: 18px;
+		background-color: yellow
+	}
+	.timelinewrap {
+		width: 100%;
+		margin: 0 auto
+	}
+	/*.btnwrap {
+		position: absolute;
+    right: 54px;
+    bottom: -27px;
+    width: 78%;
+    background-color: #227af7;
+    border: 1px solid #227af7;
+    height: 45px;
+    text-align: center;
+    color: white;
+	}*/
+	.kuhuliucunbgwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 170px;
+	  width: 90%;
+	  margin: 0 auto
+	}
+	.kuhuliucunbgrightwrap {
+		background-image: url(kebubg1.jpg);
+	  background-size: cover;
+		background-color: #0a3b7f;
+	  background-position: center;
+	  height: 200px;
+	  margin-bottom: 60px;
+	  width: 90%;
+	  margin: 0 auto
+	}
 	.quanqiubigfont {
 		font-size: 14px
 	}
@@ -1516,6 +2395,9 @@ li {
 		padding-top: 50px;
 		padding-bottom: 60px
 	}
+	.contentbottom {
+		padding-bottom: 60px
+	}
 	.contentwrapteshu {
 		padding-top: 50px;
 		padding-bottom: 100px
@@ -1524,7 +2406,7 @@ li {
 		font-size: 16px
 	}
 	.titlemarginbottom {
-	  margin-bottom: 28px;
+	  margin-bottom: 40px;
 	  margin-top: 14px;
 	}
 	.zhenghebigfont {
@@ -1566,11 +2448,11 @@ li {
 		margin-top: 168px
 	}
 	.coretech_sectionthree {
-		background-image: url(coretechmodele3bg320.jpg);
+		//background-image: url(coretechmodele3bg320.jpg);
 	  background-size: cover;
-		background-color: #004dc6;
+		background-color: #183da7;
 	  background-position: center;
-		height: 430px;
+		height: 340px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -1635,9 +2517,6 @@ li {
 		color: black;
 		width: 184px
 	}
-	/*.padfont {
-		font-size: 20px
-	}*/
 	.rengongfont{
 		text-decoration: none;
     color: #01296d;
@@ -1794,6 +2673,4 @@ li {
 	.guanyuwomenbigfont {
 		font-size: 12px
 	}
- 
-
 }
