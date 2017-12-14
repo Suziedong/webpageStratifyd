@@ -54,6 +54,13 @@ li {
 		background-color: #eeeeee
 }
 @media screen and (min-width:1920px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 688px;
+    width: 100%;
+	}
 	.circle {
 		width: 66px;
 		height: 66px;
@@ -491,6 +498,13 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 688px;
+    width: 100%;
+	}
 	.paraleftmargin {
 		padding-left: 40px;
 		width: 90%
@@ -734,7 +748,7 @@ li {
 	  background-size: cover;
 		background-color: #183da7;
 	  background-position: center;
-		height: 688px;
+		height: 906px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -934,6 +948,13 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 688px;
+    width: 100%;
+	}
 	.paraleftmargin {
 		padding-left: 40px;
 		width: 90%
@@ -1173,7 +1194,7 @@ li {
 	  background-size: cover;
 		background-color: #183da7;
 	  background-position: center;
-		height: 688px;
+		height: 906px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -1373,6 +1394,13 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 688px;
+    width: 100%;
+	}
 	.fontmargin {
 		margin-top: 18px
 	}
@@ -1595,7 +1623,7 @@ li {
 	  background-size: cover;
 		background-color: #183da7;
 	  background-position: center;
-		height: 688px;
+		height: 906px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
@@ -1805,6 +1833,13 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+	}
 	.fontmargin {
 		margin-top: 18px
 	}
@@ -2226,6 +2261,13 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.index_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 345px;
+    width: 100%;
+	}
 	.shoujikoubeimarginbottom {
 		margin-bottom: 25px
 	}
@@ -2452,7 +2494,7 @@ li {
 	  background-size: cover;
 		background-color: #183da7;
 	  background-position: center;
-		height: 340px;
+		height: 395px;
 	  width: 100%;
 	}
 	.coretech_dataimg {
