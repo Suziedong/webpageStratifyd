@@ -53,7 +53,123 @@ li {
 .index_sectionfour {
 		background-color: #eeeeee
 }
+.fontcolor1 {
+	color: #a47bfe
+}
+.bgcolor1 {
+	background-color: #a47bfe
+}
+.fontcolor2 {
+	color: #8b56ff
+}
+.bgcolor2 {
+	background-color: #8b56ff
+}
+.fontcolor3 {
+	color: #7d41ff
+}
+.bgcolor3 {
+	background-color: #7d41ff
+}
+.fontcolor4 {
+	color: #6120ec
+}
+.bgcolor4 {
+	background-color: #6120ec
+}
+.fontcolor5 {
+	color: #4b4bdd
+}
+.bgcolor5 {
+	background-color: #4b4bdd
+}
+.fontcolor6 {
+	color: #4b55dd
+}
+.bgcolor6 {
+	background-color: #4b55dd
+}
+.fontcolor7 {
+	color: #3f54e4
+}
+.bgcolor7 {
+	background-color: #3f54e4
+}
+.fontcolor8 {
+	color: #1a58e3
+}
+.bgcolor8 {
+	background-color: #1a58e3
+}
+.fontcolor9 {
+	color: #2361ed
+}
+.bgcolor9 {
+	background-color: #2361ed
+}
+.fontcolor10 {
+	color: #2e6ad3
+}
+.bgcolor10 {
+	background-color: #2e6ad3
+}
+.fontcolor11 {
+	color: #235dc2
+}
+.bgcolor11 {
+	background-color: #235dc2
+}
+.fontcolor12 {
+	color: #144baa
+}
+.bgcolor12 {
+	background-color: #144baa
+}
+.fontcolor13 {
+	color: #104299
+}
+.bgcolor13 {
+	background-color: #104299
+}
+.fontcolor14 {
+	color: #0f3c8a
+}
+.bgcolor14 {
+	background-color: #0f3c8a
+}
+.fontcolor15 {
+	color: #0d3883
+}
+.bgcolor15 {
+	background-color: #0d3883
+}
 @media screen and (min-width:1920px) {
+	.mapbg {
+		background-image: url(../imgs/1140-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 430px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 430px
+	}
+	.timelinepicnew {
+		height: 66px
+	}
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 228px;
+		border-right:2px solid #d2d2d2;
+		height: 1510px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -65,7 +181,6 @@ li {
 		width: 66px;
 		height: 66px;
 		border-radius: 34px;
-		background-color: blue
 	}
 	.lineheigh {
 		height: 100px;
@@ -78,7 +193,7 @@ li {
 		margin-top: 30px
 	}
 	.guanliimg {
-		height: 337px
+		height: 336px
 	}
 	.hezuohuobanimg {
 		height: 130px
@@ -118,8 +233,8 @@ li {
 		line-height: 28px
 	}
 	.hangyelogo {
-		height: 90px;
-		margin: 45px
+		height: 180px;
+		//margin: 45px
 	}
 	.hanyyeyuanwrap {
 		width: 180px;
@@ -131,7 +246,7 @@ li {
 	}
 
 	.companyimgindex {
-		height: 60px;
+		height: 56px;
 		margin-bottom: 40px
 	}
 	.kehuliucun {
@@ -498,6 +613,41 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.mapbg {
+		background-image: url(../imgs/1140-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 430px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 430px
+	}
+	.timelinepicnew {
+		height: 66px
+	}
+	.logo2 {
+  	display: none;
+  }
+  .logo3 {
+  	display: none
+  }
+  .logo4 {
+  	display: none;
+  }
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 228px;
+		border-right:2px solid #d2d2d2;
+		height: 1510px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -549,7 +699,7 @@ li {
 		margin-top: 30px
 	}
 	.guanliimg {
-		height: 337px
+		height: 336px
 	}
 	.hezuohuobanimg {
 		height: 130px !important
@@ -575,11 +725,10 @@ li {
 		width: 66px;
 		height: 66px;
 		border-radius: 34px;
-		background-color: blue
 	}
 	.hangyelogo {
-		height: 90px;
-		margin: 45px
+		height: 180px;
+		//margin: 45px
 	}
 	.hanyyeyuanwrap {
 		width: 180px;
@@ -594,12 +743,12 @@ li {
 		margin: 0 auto
 	}
 	.companyimgindex {
-		height: 60px;
+		height: 56px;
 		margin-bottom: 40px
 	}
 	.kehuliucun {
 		height: 78px;
-		margin-top:120px;
+		margin-top:93px;
 	}
 	.rowmargin {
 		margin-bottom: 60px
@@ -948,6 +1097,44 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.mapbg {
+		background-image: url(../imgs/1140-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 430px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 430px
+	}
+	.timelinepicnew {
+		height: 66px
+	}
+	.logo2 {
+  	display: none;
+  }
+  .logo3 {
+  	display: none;
+  }
+  .logo4 {
+  	display: none
+  }
+	.timelinepicnew {
+		height: 66px
+	}
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 228px;
+		border-right:2px solid #d2d2d2;
+		height: 1510px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -992,7 +1179,6 @@ li {
 		width: 66px;
 		height: 66px;
 		border-radius: 34px;
-		background-color: blue
 	}
 	.lineheigh {
 		height: 100px;
@@ -1005,7 +1191,7 @@ li {
 		margin-top: 30px
 	}
 	.guanliimg {
-		height: 337px
+		height: 336px
 	}
 	.hezuohuobanimg {
 		height: 130px
@@ -1025,8 +1211,8 @@ li {
 		margin-top: 20px
 	}
 	.hangyelogo {
-		height: 90px;
-		margin: 45px
+		height: 180px;
+		//margin: 45px
 	}
 	.hanyyeyuanwrap {
 		width: 180px;
@@ -1041,7 +1227,7 @@ li {
 		margin: 0 auto
 	}
 	.companyimgindex {
-		height: 60px;
+		height: 56px;
 		margin-bottom: 40px
 	}
 	.kehuliucun {
@@ -1394,6 +1580,44 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.hangyelogo {
+		height: 202px;
+	}
+	.mapbg {
+		background-image: url(../imgs/940-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 356px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 356px
+	}
+	.timelinepicnew {
+		height: 48px
+	}
+	.logo1, .logo3, .logo4{
+		display: none
+	}
+	.logo3 {
+		display: none
+	}
+	.logo4 {
+		display: none
+	}
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 185px;
+		border-right:2px solid #d2d2d2;
+		height: 1218px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -1413,7 +1637,7 @@ li {
     margin-bottom: 40px;
 	}
 	.companyimgindex {
-		height: 80px;
+		height: 46px;
 		margin-bottom: 30px
 	}
 	.paraleftmargin {
@@ -1481,7 +1705,6 @@ li {
 		width: 48px;
 		height: 48px;
 		border-radius: 24px;
-		background-color: yellow
 	}
 	.hangyewrap {
 		width: 70%;
@@ -1833,6 +2056,44 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.hangyelogo {
+		height: 162px;
+	}
+	.mapbg {
+		background-image: url(../imgs/720-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 272px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 272px
+	}
+	.timelinepicnew {
+		height: 40px
+	}
+	.logo1, .logo2, .logo4{
+		display: none
+	}
+	.logo2 {
+		display: none
+	}
+	.logo4 {
+		display: none
+	}
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 144px;
+		border-right:2px solid #d2d2d2;
+		height: 913px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -1852,7 +2113,7 @@ li {
     margin-bottom: 25px;
 	}
 	.companyimgindex {
-		height: 50px;
+		height: 34px;
 		margin-bottom: 20px
 	}
 	.paraleftmargin {
@@ -1913,10 +2174,9 @@ li {
 		padding-top: 10px
 	}
 	.circle {
-		width: 30px;
-		height: 30px;
-		border-radius: 15px;
-		background-color: yellow
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
 	}
 	.timelinewrap {
 		width: 100%;
@@ -2261,6 +2521,44 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.hangyelogo {
+		height: 74px;
+	}
+	.mapbg {
+		background-image: url(../imgs/320-@2x.png);
+	  background-size: cover;
+		background-color: white;
+	  background-position: center;
+	  height: 110px;
+	  width: 100%;
+	  margin: 0 auto
+	}
+	.mapheight {
+		height: 110px
+	}
+	.timelinepicnew {
+		height: 36px
+	}
+	.logo1, .logo2, .logo3{
+		display: none
+	}
+	.logo2 {
+		display: none
+	}
+	.logo3 {
+		display: none
+	}
+	.companyinfowrap {
+		position: relative;
+	}
+	.shijianzhou {
+		position: absolute;
+		z-index: -1000;
+		left: 32%;
+		border-right:2px solid #d2d2d2;
+		height: 1200px;
+		top:0;
+	}
 	.index_sectionthree {
 		background-size: cover;
     background-color: #183da7;
@@ -2286,7 +2584,7 @@ li {
     margin-bottom: 30px;
 	}
 	.companyimgindex {
-		height: 40px;
+		height: 22px;
 		margin-bottom: 10px
 	}
 	.shoujimargin {
@@ -2356,6 +2654,7 @@ li {
 		margin-top: 30px
 	}
 	.portwrap {
+		background-color: white;
 		border: 1px solid #227af7;
 	}
 	.portnamewrap {
@@ -2373,23 +2672,11 @@ li {
 		width: 36px;
 		height: 36px;
 		border-radius: 18px;
-		background-color: yellow
 	}
 	.timelinewrap {
 		width: 100%;
 		margin: 0 auto
 	}
-	/*.btnwrap {
-		position: absolute;
-    right: 54px;
-    bottom: -27px;
-    width: 78%;
-    background-color: #227af7;
-    border: 1px solid #227af7;
-    height: 45px;
-    text-align: center;
-    color: white;
-	}*/
 	.kuhuliucunbgwrap {
 		background-image: url(kebubg1.jpg);
 	  background-size: cover;
