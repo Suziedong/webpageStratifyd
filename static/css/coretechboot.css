@@ -165,6 +165,16 @@ li {
 	background-color: #0d3883
 }
 @media screen and (min-width:1920px) {
+	.intell_sectionfour {
+		height: 830px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 20px
 	}
@@ -246,7 +256,7 @@ li {
 	}
 	.smalliconbg {
 		width: 300px;
-		height: 400px
+		height: 370px
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -995,6 +1005,16 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.intell_sectionfour {
+		height: 830px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 20px
 	}
@@ -1077,7 +1097,7 @@ li {
 
 	.smalliconbg {
 		width: 300px;
-		height: 400px
+		height: 370px
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -1832,6 +1852,16 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.intell_sectionfour {
+		height: 830px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 20px
 	}
@@ -1914,7 +1944,7 @@ li {
 
 	.smalliconbg {
 		width: 300px;
-		height: 400px
+		height: 370px
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -2667,6 +2697,16 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.intell_sectionfour {
+		height: 700px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 18px
 	}
@@ -2713,7 +2753,7 @@ li {
 	}
 	.teshuallwrap {
 		position: relative;
-		height: 900px
+		height: 805px
 	}
 	.teshu1 {
 		position: absolute;
@@ -2746,12 +2786,12 @@ li {
 		margin-bottom: 100px
 	}*/
 	.height {
-		height: 400px
+		height: 370px
 	}
 
 	.smalliconbg {
 		width: 300px;
-		height: 400px
+		height: 331px
 	}
 	.intelllineheight {
 		line-height: 30px
@@ -3495,6 +3535,16 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.intell_sectionfour {
+		height: 500px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 470px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 16px
 	}
@@ -3541,7 +3591,7 @@ li {
 	}
 	.teshuallwrap {
 		position: relative;
-		height: 900px
+		height: 705px
 	}
 	.teshu1 {
 		position: absolute;
@@ -3574,12 +3624,12 @@ li {
 		margin-bottom: 100px
 	}*/
 	.height {
-		height: 400px
+		height: 325px
 	}
 
 	.smalliconbg {
 		width: 100%;
-		height: 400px
+		height: 288px
 	}
 	.intelllineheight {
 		line-height: 22px
@@ -4314,6 +4364,16 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.intell_sectionfour {
+		height: 550px
+	}
+	.intell_sectionthree {
+		background-size: cover;
+    background-color: #183da7;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+	}
 	.namefont {
 		font-size: 14px
 	}
@@ -4383,7 +4443,7 @@ li {
 
 	.smalliconbg {
 		width: 100%;
-		height: 300px
+		height: 346px
 	}
 	.intelllineheight {
 		line-height: 16px
