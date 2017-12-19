@@ -16,10 +16,10 @@ img{border:none}
 	src: url('../utils/ProductSans-Regular.ttf');    
 }		
 body {
-	font-family: "OpenSans","SourceHanSansSC",Arial,Heiti SC,MS Hei,'黑体';
+	font-family: "OpenSans","SourceHanSansSC",Arial,Heiti SC,MS Hei,'黑体' !important;
 }
 .stratifydfont{
-	font-family: "ProductSans",Arical,Helvetica Neue,PingFang SC;
+	font-family: "ProductSans",Arical,Helvetica Neue,PingFang SC !important;
 }
 nav .nav {
 	margin: :0;padding:0;
