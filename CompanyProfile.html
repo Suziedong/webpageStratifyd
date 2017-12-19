@@ -13,10 +13,19 @@
 			.border {
 				border: 1px solid red
 			}			
-		</style>	
+		</style>
+		<script type="text/javascript">
+			$(window).scroll(function() {
+				if ($(window).scrollTop() >= 100) {
+					$(".top_wrap").addClass("sticky");
+				} else {
+					$(".top_wrap").removeClass("sticky");
+				}
+			});
+		</script>		
 	</head>
 	<body>
-			<nav class="navbar webnav navbar-fixed-top">
+			<nav class="top_wrap navbar webnav navbar-fixed-top">
 				<div class="container text-center">
 					<div class="navbar-header">
 					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -42,12 +51,12 @@
 					<div class="collapse navbar-collapse " id="myNavbar">
 						  <div class="is-drilldown">
 						      <ul class="nav nav-justified">
-						        <li class="active"><a href="indexboot.html" class="fontcolor navfont"><h4 class="bigfont shoujifont">首页</h4></a></li>
-						        <li><a href="coretechboot.html" class="fontcolor navfont"><h4
+						        <li class="active"><a href="Index.html" class="fontcolor navfont"><h4 class="bigfont shoujifont">首页</h4></a></li>
+						        <li><a href="CoreTechnology.html" class="fontcolor navfont"><h4
 						        	class="bigfont shoujifont">核心技术</h4></a></li>
-						        <li><a href="companyinfoboot.html" class="fontcolor navfont"><h4
+						        <li><a href="CompanyProfile.html" class="fontcolor navfont"><h4
 						        	class="bigfont shoujifont">公司简介</h4></a></li>
-						        <li><a href="aboutusboot.html" class="fontcolor navfont"><h4
+						        <li><a href="AboutUs.html" class="fontcolor navfont"><h4
 						        	class="bigfont shoujifont">关于我们</h4></a></li>
 						      </ul>
 						  </div>
@@ -59,9 +68,13 @@
 					<div class="coretech_sectionone">
 						<div class="container text-center ">
 							<div class="coretechmargin">
-									<h2 class="fontcolor strbigfont">Stratifyd</h2>
-									<h3 class="fontcolor titlemarginbottom quanqiubigfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</h3>
-									<button type="button" class="trybtn"><h3 class="h3marin kaishibtn">开 始 试 用</h3></button>
+									<h2 class="fontcolor strbigfont stratifydfont">Stratifyd</h2>
+									<h3 class="fontcolor titlemarginbottom quanqiubigfont">全球领先的增强智能大数据分析平台</h3>
+									<div>
+										<a href="https://alpha.stratifyd.cn">
+											<span class="btn btn-default h3marin kaishibtn trybtn">开始试用</span>								
+										</a>
+									</div>
 							</div>
 						</div>
 					</div>
@@ -92,10 +105,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh lineheigh">
 												<div class="timelinewrap">
 													<div class="circle bgcolor1">	
-														<img src='static/imgs/2014-03@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg1">
+														</div>
+														<!-- <img src='static/imgs/2014-03@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482014-03@2x.png' class="timelinepicnew logo2"/>	
 														<img src='static/imgs/402014-03@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362014-03@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362014-03@2x.png' class="timelinepicnew logo4"/> -->		
 													</div>													
 												</div>											
 											</div>
@@ -110,10 +125,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 lineheigh">
 												<div class="timelinewrap">
 													<div class="circle bgcolor2">	
-														<img src='static/imgs/2014-12@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg2">
+														</div>
+														<!-- <img src='static/imgs/2014-12@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482014-12@2x.png' class="timelinepicnew logo2"/>	
 														<img src='static/imgs/402014-12@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362014-12@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362014-12@2x.png' class="timelinepicnew logo4"/> -->		
 													</div>													
 												</div>
 											</div>
@@ -127,7 +144,9 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
-													<div class="circle bgcolor3">		
+													<div class="circle bgcolor3">	
+														<div class="border timelinebg timelinebg3">
+														</div>	
 														<img src='static/imgs/2015-04@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482015-04@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402015-04@2x.png' class="timelinepicnew logo3"/>	
@@ -145,11 +164,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
-													<div class="circle bgcolor4">		
-														<img src='static/imgs/2015-06@2x.png' class="timelinepicnew logo1"/>
+													<div class="circle bgcolor4">
+														<div class="border timelinebg timelinebg4">
+														</div>		
+														<!-- <img src='static/imgs/2015-06@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482015-06@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402015-06@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362015-06@2x.png' class="timelinepicnew logo4"/>
+														<img src='static/imgs/362015-06@2x.png' class="timelinepicnew logo4"/> -->
 													</div>													
 												</div>
 											</div>
@@ -164,10 +185,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
 													<div class="circle bgcolor5">	
-														<img src='static/imgs/2015-10@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg5">
+														</div>
+														<!-- <img src='static/imgs/2015-10@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482015-10@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402015-10@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362015-10@2x.png' class="timelinepicnew logo4"/>
+														<img src='static/imgs/362015-10@2x.png' class="timelinepicnew logo4"/> -->
 	
 													</div>													
 												</div>
@@ -183,10 +206,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
 													<div class="circle bgcolor6">
-														<img src='static/imgs/2016-01@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg6">
+														</div>
+														<!-- <img src='static/imgs/2016-01@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482016-01@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402016-01@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-01@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362016-01@2x.png' class="timelinepicnew logo4"/> -->		
 													</div>													
 												</div>
 											</div>
@@ -201,10 +226,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
 													<div class="circle bgcolor7">	
-														<img src='static/imgs/2016-04@2x.png' class="timelinepicnew logo1"/>	
+														<div class="border timelinebg timelinebg7">
+														</div>
+														<!-- <img src='static/imgs/2016-04@2x.png' class="timelinepicnew logo1"/>	
 														<img src='static/imgs/482016-04@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402016-04@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-04@2x.png' class="timelinepicnew logo4"/>	
+														<img src='static/imgs/362016-04@2x.png' class="timelinepicnew logo4"/>	 -->
 													</div>													
 												</div>
 											</div>
@@ -218,11 +245,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap">
-													<div class="circle bgcolor8">		
-														<img src='static/imgs/2016-05@2x.png' class="timelinepicnew logo1"/>
+													<div class="circle bgcolor8">	
+														<div class="border timelinebg timelinebg8">
+														</div>	
+													<!-- 	<img src='static/imgs/2016-05@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482016-05@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402016-05@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-05@2x.png' class="timelinepicnew logo4"/>
+														<img src='static/imgs/362016-05@2x.png' class="timelinepicnew logo4"/> -->
 													</div>													
 												</div>
 											</div>
@@ -236,11 +265,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap ">
-													<div class="circle bgcolor9">	
-														<img src='static/imgs/2016-07@2x.png' class="timelinepicnew logo1"/>	
+													<div class="circle bgcolor9">
+														<div class="border timelinebg timelinebg9">
+														</div>	
+													<!-- 	<img src='static/imgs/2016-07@2x.png' class="timelinepicnew logo1"/>	
 														<img src='static/imgs/482016-07@2x.png' class="timelinepicnew logo2"/>
 													<img src='static/imgs/402016-07@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-07@2x.png' class="timelinepicnew logo4"/>
+														<img src='static/imgs/362016-07@2x.png' class="timelinepicnew logo4"/> -->
 													</div>													
 												</div>
 											</div>
@@ -254,11 +285,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 lineheigh">
 												<div class="timelinewrap ">
-													<div class="circle bgcolor10">	
-														<img src='static/imgs/2016-09@2x.png' class="timelinepicnew logo1"/>
+													<div class="circle bgcolor10">
+														<div class="border timelinebg timelinebg10">
+														</div>	
+														<!-- <img src='static/imgs/2016-09@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482016-09@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402016-09@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-09@2x.png' class="timelinepicnew logo4"/>	
+														<img src='static/imgs/362016-09@2x.png' class="timelinepicnew logo4"/>	 -->
 													</div>													
 												</div>
 											</div>
@@ -273,10 +306,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap ">
 													<div class="circle bgcolor11">	
-														<img src='static/imgs/2016-10@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg11">
+														</div>
+														<!-- <img src='static/imgs/2016-10@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482016-10@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402016-10@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362016-10@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362016-10@2x.png' class="timelinepicnew logo4"/>	 -->	
 													</div>													
 												</div>
 											</div>
@@ -290,11 +325,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap ">
-													<div class="circle bgcolor12">	
-														<img src='static/imgs/2017-01@2x.png' class="timelinepicnew logo1"/>
+													<div class="circle bgcolor12">
+														<div class="border timelinebg timelinebg12">
+														</div>	
+														<!-- <img src='static/imgs/2017-01@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482017-01@2x.png' class="timelinepicnew logo2"/>	
 														<img src='static/imgs/402017-01@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362017-01@2x.png' class="timelinepicnew logo4"/>
+														<img src='static/imgs/362017-01@2x.png' class="timelinepicnew logo4"/> -->
 													</div>													
 												</div>
 											</div>
@@ -309,11 +346,13 @@
 											</div>
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap ">
-													<div class="circle bgcolor13">	
-														<img src='static/imgs/2017-02@2x.png' class="timelinepicnew logo1"/>
+													<div class="circle bgcolor13">
+														<div class="border timelinebg timelinebg13">
+														</div>	
+														<!-- <img src='static/imgs/2017-02@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482017-02@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402017-02@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362017-02@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362017-02@2x.png' class="timelinepicnew logo4"/> -->		
 													</div>													
 												</div>
 											</div>
@@ -329,10 +368,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh">
 												<div class="timelinewrap ">
 													<div class="circle bgcolor14">
-														<img src='static/imgs/2017-04@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg14">
+														</div>
+														<!-- <img src='static/imgs/2017-04@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482017-04@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402017-04@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362017-04@2x.png' class="timelinepicnew logo4"/>		
+														<img src='static/imgs/362017-04@2x.png' class="timelinepicnew logo4"/> -->		
 													</div>													
 												</div>
 											</div>
@@ -348,10 +389,12 @@
 											<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2  lineheigh ">
 												<div class="timelinewrap">
 													<div class="circle bgcolor15">	
-														<img src='static/imgs/2017-08@2x.png' class="timelinepicnew logo1"/>
+														<div class="border timelinebg timelinebg15">
+														</div>
+														<!-- <img src='static/imgs/2017-08@2x.png' class="timelinepicnew logo1"/>
 														<img src='static/imgs/482017-08@2x.png' class="timelinepicnew logo2"/>
 														<img src='static/imgs/402017-08@2x.png' class="timelinepicnew logo3"/>	
-														<img src='static/imgs/362017-08@2x.png' class="timelinepicnew logo4"/>	
+														<img src='static/imgs/362017-08@2x.png' class="timelinepicnew logo4"/>	 -->
 													</div>													
 												</div>
 											</div>
@@ -380,55 +423,47 @@
 									<div class="row text-center">
 										 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ">
 										 	<div class="portwrap">
-												<img src="static/imgs/1person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/1person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/1person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/1person161.png" class="guanliimg logo4"/>
+										 		<div class=" portbg1 portbg">			
+										 		</div>
 												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">汪晓宇(Derek) 
+													<div class="fontcolor namefont">汪晓宇(Derek) 
 													</div>
-													<div class="dianzibigfont fontcolor">创始人兼CEO</div>
+													<div class="fontcolor namefont">创始人兼CEO</div>
 												</div>
 											</div>
 										 </div>
   									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ">
   										<div class="portwrap">
-												<img src="static/imgs/2person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/2person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/2person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/2person161.png" class="guanliimg logo4"/>
+  											<div class="portbg2 portbg">			
+										 		</div>
 												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">俞立 
+													<div class="fontcolor namefont">俞立 
 													</div>
-													<div class="dianzibigfont fontcolor">数据分析副总</div>
-												</div>
-											</div>
-  									</div>
-  									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
-  									shoujizhongjian">
-  										<div class="portwrap ">
-												<img src="static/imgs/3person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/3person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/3person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/3person161.png" class="guanliimg logo4"/>
-												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">郭洵 
-													</div>
-													<div class="dianzibigfont fontcolor">运营副总</div>
+													<div class="fontcolor namefont">数据分析副总</div>
 												</div>
 											</div>
   									</div>
   									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
   									shoujizhongjian">
   										<div class="portwrap">
-												<img src="static/imgs/4person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/4person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/4person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/4person161.png" class="guanliimg logo4"/>
+  											<div class="portbg3 portbg">			
+										 		</div>
 												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">马铭  
+													<div class="fontcolor namefont">郭洵 
 													</div>
-													<div class="dianzibigfont fontcolor">产品副总</div>
+													<div class="fontcolor namefont">运营副总</div>
+												</div>
+											</div>
+  									</div>
+  									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
+  									shoujizhongjian">
+  										<div class="portwrap">
+  											<div class="portbg4 portbg">			
+										 		</div>
+												<div class="portnamewrap">
+													<div class="fontcolor namefont">马铭  
+													</div>
+													<div class="fontcolor namefont">产品副总</div>
 												</div>
 											</div>
   									</div>
@@ -437,28 +472,24 @@
 										 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
 										  col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
 										 	<div class="portwrap">
-												<img src="static/imgs/5person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/5person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/5person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/5person161.png" class="guanliimg logo4"/>
+										 		<div class="portbg5 portbg">			
+										 		</div>
 												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">Thomas Kraft   
+													<div class="fontcolor namefont">Thomas Kraft   
 													</div>
-													<div class="dianzibigfont fontcolor">工程副总</div>
+													<div class="fontcolor namefont">工程副总</div>
 												</div>
 											</div>
 										 </div>
   									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
   									">
   										<div class="portwrap">
-												<img src="static/imgs/6person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/6person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/6person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/6person161.png" class="guanliimg logo4"/>
+  											<div class="portbg6 portbg">			
+										 		</div>
 												<div class="portnamewrap">
-													<div class="dianzibigfont fontcolor">Brad Fleeman   
+													<div class="fontcolor namefont">Brad Fleeman   
 													</div>
-													<div class="dianzibigfont fontcolor">全球销售副总
+													<div class="fontcolor namefont">全球销售副总
 													</div>
 												</div>
 											</div>
@@ -466,14 +497,12 @@
   									<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3
   									 shoujilast">
   										<div class="portwrap">
-												<img src="static/imgs/7person292.png" class="guanliimg logo1"/>
-												<img src="static/imgs/7person266.png" class="guanliimg logo2"/>
-												<img src="static/imgs/7person197.png" class="guanliimg logo3"/>
-												<img src="static/imgs/7person161.png" class="guanliimg logo4"/>
+  											<div class="portbg7 portbg">			
+										 		</div>
 												<div class="portnamewrap ">
-													<div class="dianzibigfont fontcolor">Kevi O’Dell   
+													<div class="fontcolor namefont">Kevi O’Dell   
 													</div>
-													<div class="dianzibigfont fontcolor">项目副总
+													<div class="fontcolor namefont">项目副总
 													</div>
 												</div>
 											</div>
@@ -491,86 +520,62 @@
 								<div class="coretech_caijiwrap ">
 									<div class="row">
 										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 borderright borderbottom">
-											<img src='static/imgs/1logo292.png' class="hezuohuobanimg logo1" />
-											<img src='static/imgs/1logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/1logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/1logo35.png' class="hezuohuobanimg logo4" />
+											<div class=" companybg companybg1">					
+											</div>
 										</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 borderright borderbottom">
-  										<img src='static/imgs/2logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/2logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/2logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/2logo35.png' class="hezuohuobanimg logo4" />
-  									</div>
+  										<div class=" companybg companybg2">							
+											</div>
+    								</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3
   									borderright borderbottom">
-  										<img src='static/imgs/3logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/3logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/3logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/3logo35.png' class="hezuohuobanimg logo4" />
+	  									<div class=" companybg companybg3">
+											</div>
   									</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3
   									 borderbottom">
-  										<img src='static/imgs/4logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/4logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/4logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/4logo35.png' class="hezuohuobanimg logo4" />
+  									 	<div class=" companybg companybg4">
+											</div>
   									</div>
 									</div>
 									<div class="row">
 										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 borderright borderbottom">
-											<img src='static/imgs/5logo292.png' class="hezuohuobanimg logo1" />
-											<img src='static/imgs/5logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/5logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/5logo35.png' class="hezuohuobanimg logo4" />
+											<div class=" companybg companybg5">
+											</div>
 										</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 borderright borderbottom">
-  										<img src='static/imgs/6logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/6logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/6logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/6logo35.png' class="hezuohuobanimg logo4" />
+  										<div class=" companybg companybg6">
+											</div>
   									</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 borderright borderbottom">
-  										<img src='static/imgs/7logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/7logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/7logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/7logo35.png' class="hezuohuobanimg logo4" />
+  										<div class=" companybg companybg7">
+											</div>
   									</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3
   									borderbottom">
-  										<img src='static/imgs/8logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/8logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/8logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/8logo35.png' class="hezuohuobanimg logo4" />
+  									<div class=" companybg companybg8">
+											</div>
   									</div>
 									</div>
 									<div class="row">
 										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 
 										borderright">
-											<img src='static/imgs/9logo292.png' class="hezuohuobanimg logo1" />
-											<img src='static/imgs/9logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/9logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/9logo35.png' class="hezuohuobanimg logo4" />
+											<div class=" companybg companybg9">
+											</div>
 										</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 
   									borderright">
-  										<img src='static/imgs/10logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/10logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/10logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/10logo35.png' class="hezuohuobanimg logo4" />
+	  									<div class=" companybg companybg10">
+											</div>
   									</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3
   									borderright">
-  										<img src='static/imgs/11logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/11logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/11logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/11logo35.png' class="hezuohuobanimg logo4" />
+  										<div class=" companybg companybg11">
+											</div>
   									</div>
   									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-  										<img src='static/imgs/12logo292.png' class="hezuohuobanimg logo1" />
-  										<img src='static/imgs/12logo105.png' class="hezuohuobanimg logo2" />
-											<img src='static/imgs/12logo77.png' class="hezuohuobanimg logo3" />
-											<img src='static/imgs/12logo35.png' class="hezuohuobanimg logo4" />
+  										<div class=" companybg companybg12">
+											</div>
   									</div>
 									</div>
 								</div>
@@ -578,22 +583,20 @@
 					</div>
 				</section>
 			</article>
-			<footer>
+						<footer>
 				<div class="container text-center">
-							<div class="col-lg-2 col-md-2  col-sm-2 phonewrap ">
-								<img class="img1" src="static/imgs/logo156.png" alt="logo"/>
-								<img class="img2" src="static/imgs/logo86.png" alt="logo"/>
-								<img class="img3" src="static/imgs/logo172.png" alt="logo"/>
-								<img class="img4" src="static/imgs/logo124.png" alt="logo"/>
+							<div class="col-lg-2 col-md-2  col-sm-2 phonewrap">
+								<div class="footerlogobg">								
+								</div>
 							</div>
 							<div class="col-lg-2 col-md-2  col-sm-2"> 
-							<h4 class="footerfont fontcolor guanyuwrap guanyuwomenbigfont">关于我们</h4>
-							<ul class="list-group footerfont guanyuwrap ">
+								<h4 class="footerfont fontcolor guanyuwrap guanyuwomenbigfont">关于我们</h4>
+								<ul class="list-group footerfont guanyuwrap ">
 								  <li><h5 class="gongsijianjiebigfont">公司简介</h5></li>
 								  <li><h5 class="gongsijianjiebigfont">公司动态</h5></li>
 								  <li><h5 class="gongsijianjiebigfont">诚招英才</h5></li>
 								  <li><h5 class="gongsijianjiebigfont">加入我们</h5></li>
-							</ul>							
+								</ul>							
 							</div>
 							<div class="col-lg-5 col-md-5 col-sm-4">
 								<h4 class="footerfont fontcolor guanyuwomenbigfont">联系我们</h4>
@@ -604,17 +607,14 @@
 								  <li><h5 class="gongsijianjiebigfont">邮箱：webcontact@stratifyd.com</h5></li>
 								</ul>
 							</div>
-							<div class="col-lg-1 col-md-1  col-sm-2 col-xs-4 c col-sm-offset-0 col-xs-offset-2"> 
-								<img class="img5" src="static/imgs/weixin94.png" alt="weixin"/>
-								<img class="img6" src="static/imgs/weixin78.png" alt="weixin"/>
-								<img class="img7" src="static/imgs/weixin118.png" alt="weixin"/>
-								<img class="img8" src="static/imgs/weixin82.png" alt="weixin"/>
-							</div>
-							<div class="col-lg-1 col-md-1  col-sm-2 col-xs-4 col-md-offset-1  col-sm-offset-0 col-xs-offset-0">
-								<img class="img5" src="static/imgs/weibo94.png" alt="weixin"/>
-								<img class="img6" src="static/imgs/weibo.png" alt="weixin"/>
-								<img class="img7" src="static/imgs/weibo88.png" alt="weixin"/>
-								<img class="img8" src="static/imgs/weibo82.png" alt="weixin"/>
+							<div class="col-lg-3 col-md-3  col-sm-4 col-xs-4 shoujitextcenter">  
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 shoujipaddingleft footermariginbottom">
+									<div class="weixinbg"> </div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6
+								shoujiapaddingright footermariginbottom">	
+									<div class="weibobg"> </div>
+								</div>
 							</div>
 				</div>
 				<div class="text-center beianborder">
