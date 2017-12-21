@@ -171,6 +171,9 @@ li {
 	color: rgba(255,255,255,0.5)
 }
 @media screen and (min-width:1920px) {
+	.smalliconbgmargintop {
+		margin-top: 15px
+	}
 	.container1 {
 		width: 876px;
 		margin: 0 auto
@@ -283,8 +286,12 @@ li {
 		height: 370px
 	}
 	.smalliconbg {
-		width: 300px;
-		height: 370px
+		background-size: cover;
+	  background-position: center;
+	  height: 324px;
+	  width: 346px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/346iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -768,7 +775,71 @@ li {
 	.gongsijianjiebigfont {
 		font-size: 16px
 	}
+	.index_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.intelligent_sectionone {
 		background-image: url(indexbanner1920.jpg);
 	  background-size: cover;
 		background-color: #004dc6;
@@ -1042,6 +1113,9 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.smalliconbgmargintop {
+		margin-top: 15px
+	}
 	.container1 {
 		width: 876px;
 		margin: 0 auto
@@ -1152,10 +1226,13 @@ li {
 		height: 370px
 	}
 
-
 	.smalliconbg {
-		width: 300px;
-		height: 370px
+		background-size: cover;
+	  background-position: center;
+	  height: 324px;
+	  width: 346px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/346iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -1703,8 +1780,72 @@ li {
 	.gongsijianjiebigfont {
 		font-size: 16px
 	}
+	.index_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
-		background-image: url(coretechbanner1366.jpg);
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
+	.intelligent_sectionone {
+		background-image: url(coretechbanner1920.jpg);
 	  background-size: cover;
 		background-color: #004dc6;
 	  background-position: center;
@@ -1919,6 +2060,9 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.smalliconbgmargintop {
+		margin-top: 15px
+	}
 	.container1 {
 		width: 876px;
 		margin: 0 auto
@@ -2029,11 +2173,13 @@ li {
 	.height {
 		height: 370px
 	}
-
-
 	.smalliconbg {
-		width: 300px;
-		height: 370px
+		background-size: cover;
+	  background-position: center;
+	  height: 324px;
+	  width: 346px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/346iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 35px
@@ -2579,8 +2725,72 @@ li {
 	.gongsijianjiebigfont {
 		font-size: 16px
 	}
+	.index_sectionone {
+		background-image: url(indexbanner1920.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
-		background-image: url(coretechbanner1366.jpg);
+		background-image: url(coretechbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(coretechbanner1920.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.intelligent_sectionone {
+		background-image: url(coretechbanner1920.jpg);
 		background-size: cover;
 		background-color: #004dc6;
 		background-position: center;
@@ -2795,6 +3005,9 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.smalliconbgmargintop {
+		margin-top: 15px
+	}
 	.container1 {
 		width: 876px;
 		margin: 0 auto
@@ -2906,8 +3119,12 @@ li {
 	}
 
 	.smalliconbg {
-		width: 300px;
-		height: 331px
+		background-size: cover;
+	  background-position: center;
+	  height: 264px;
+	  width: 280px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/280iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 30px
@@ -3436,13 +3653,77 @@ li {
 	.gongsijianjiebigfont {
 		font-size: 16px
 	}
+	.index_sectionone {
+		background-image: url(indexbanner1366.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 768px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
 		background-image: url(coretechbanner1366.jpg);
-		  background-size: cover;
-			background-color: #004dc6;
-		  background-position: center;
-			height: 768px;
-		  width: 100%;
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
+	}
+	.intelligent_sectionone {
+		background-image: url(coretechbanner1366.jpg);
+		background-size: cover;
+		background-color: #004dc6;
+		background-position: center;
+		height: 768px;
+		width: 100%;
 	}
 	.coretechmargin {
 		margin-top: 270px
@@ -3662,6 +3943,9 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.smalliconbgmargintop {
+		margin-top: 15px
+	}
 	.container1 {
 		/*width: 876px;
 		margin: 0 auto*/
@@ -3773,8 +4057,12 @@ li {
 	}
 
 	.smalliconbg {
-		width: 100%;
-		height: 288px
+		background-size: cover;
+	  background-position: center;
+	  height: 194px;
+	  width: 206px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/206iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 22px
@@ -4303,7 +4591,71 @@ li {
 	.gongsijianjiebigfont {
 		font-size: 12px
 	}
+	.index_sectionone {
+		background-image: url(indexbanner768.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 1024px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
+		background-image: url(coretechbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1024px;
+	  width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1024px;
+	  width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1024px;
+	  width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(coretechbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(coretechbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(coretechbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(coretechbanner768.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 1080px;
+	  width: 100%;
+	}
+	.intelligent_sectionone {
 		background-image: url(coretechbanner768.jpg);
 	  background-size: cover;
 		background-color: #004dc6;
@@ -4518,6 +4870,12 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.shoujinavbarheadermargin {
+		top:50px;
+	}
+	.shoujinavbarheadercolor {
+		background-color: #045ec8
+	}
 	.shishikefucircle {
 	/*	width: 74px;
 		height: 74px;
@@ -4529,16 +4887,15 @@ li {
 	}
 	.mobileposition1 {
 		position: absolute;
-		top:135px;
+		top:210px;
 
 	}
 	.mobileposition2 {
 		position: absolute;
 		top:0;
-
 	}
 	.intell_sectionfour {
-		height: 550px
+		height: 640px
 	}
 	.intell_sectionthree {
 		background-size: cover;
@@ -4572,27 +4929,27 @@ li {
     padding-top: 35px;
 	}
 	.zengqiangimgdiv {
-		height: 60px;
-		width: 60px;
+		height: 50px;
+		width: 50px;
 		margin:0 auto;
 	  background-size: cover;
 	  background-position: center;
 	  margin-bottom: 30px;
 	}
 	.zengqiangimgdiv1 {
-		background-image: url(../imgs/jinhaonew.png);
+		background-image: url(../imgs/50jinhaonew.png);
 	}
 	.zengqiangimgdiv2 {
-		background-image: url(../imgs/ci.png);
+		background-image: url(../imgs/50ci.png);
 	}
 	.zengqiangimgdiv3 {
-		background-image: url(../imgs/dili.png);
+		background-image: url(../imgs/50dili.png);
 	}
 	.zengqiangimgdiv4 {
-		background-image: url(../imgs/yuyan.png);
+		background-image: url(../imgs/50yuyan.png);
 	}
 	.zengqiangimgdiv5 {
-		background-image: url(../imgs/qianggan.png);
+		background-image: url(../imgs/50qianggan.png);
 	}
 	.teshuallwrap {
 		position: relative;
@@ -4613,9 +4970,12 @@ li {
 	}
 
 	.smalliconbg {
-		width: 100%;
-		//height: 346px;
-		height :135px
+		background-size: cover;
+	  background-position: center;
+	  height: 190px;
+	  width: 204px;
+	  margin: 0 auto;
+	  background-image: url(../imgs/204iconbg.png);
 	}
 	.intelllineheight {
 		line-height: 16px
@@ -5161,7 +5521,71 @@ li {
 	.leastfont {
 		font-size: 12px !important
 	}
+	.index_sectionone {
+		background-image: url(indexbanner320.jpg);
+	  background-size: cover;
+		background-color: #041559;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
 	.coretech_sectionone {
+		background-image: url(coretechbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.companyprofile_sectionone {
+		background-image: url(companyprofilebanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.aboutus_sectionone {
+		background-image: url(aboutusbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.customerretention_sectionone {
+		background-image: url(coretechbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.qualitymanagement_sectionone {
+		background-image: url(coretechbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.intelligentmarket_sectionone {
+		background-image: url(coretechbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.strategyoption_sectionone {
+		background-image: url(coretechbanner320.jpg);
+	  background-size: cover;
+		background-color: #004dc6;
+	  background-position: center;
+		height: 480px;
+	  width: 100%;
+	}
+	.intelligent_sectionone {
 		background-image: url(coretechbanner320.jpg);
 	  background-size: cover;
 		background-color: #004dc6;
