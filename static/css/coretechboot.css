@@ -182,7 +182,19 @@ li {
 .mapaddressmail:hover {
 	color: white
 }
+.footerpicpadiing {
+	padding: 0
+}
 @media screen and (min-width:1920px) {
+	.jingbeihaobigfont {
+		font-size: 14px
+	}
+	.footermarginbottom {
+		margin-bottom: 30px
+	}
+	.col-lg-offset {
+		margin-left: 146px
+	}
 	.customerretention {
 		margin-top: 220px !important
 	}
@@ -539,7 +551,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top:10px;
 	}
 	.weixinbg {
 		background-image: url(../imgs/weixin94.png);
@@ -547,7 +560,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top:10px;
 	}
 	.footerlogobg {
 		margin-top: 8px !important;
@@ -664,7 +678,7 @@ li {
 		width: 90%
 	}
 	.hangyewrap {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto 
 	}
 	.addresswrap {
@@ -739,14 +753,14 @@ li {
 		margin-top: 8px
 	}
 	.contentwrap {
-		padding-top: 144px;
-		padding-bottom: 144px
+		padding-top: 104px;
+		padding-bottom: 164px
 	}
 	.contentbottom {
 		padding-bottom: 144px
 	}
 	.contentwrapteshu {
-		padding-top: 144px;
+		padding-top: 104px;
 		padding-bottom: 144px
 	}
 	.qiangdabigfont {
@@ -754,7 +768,7 @@ li {
 	}
 	.titlemarginbottom {
 	  margin-bottom: 70px;
-	  margin-top: 30px;
+	  //margin-top: 30px;
 	}
 	.zhenghebigfont {
 		font-size: 20px
@@ -1129,6 +1143,15 @@ li {
 	}
 }
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
+	.jingbeihaobigfont {
+		font-size: 14px
+	}
+	.footermarginbottom {
+		margin-bottom: 30px
+	}
+	.col-lg-offset {
+		margin-left: 146px
+	}
 	.smalliconbgmargintop {
 		margin-top: 15px
 	}
@@ -1478,7 +1501,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.weixinbg {
 		background-image: url(../imgs/weixin94.png);
@@ -1486,7 +1510,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.footerlogobg {
 		margin-top: 8px !important;
@@ -1652,7 +1677,7 @@ li {
 		margin-bottom: 40px
 	}
 	.hangyewrap {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto
 	}
 	.companyimgindex {
@@ -1744,8 +1769,8 @@ li {
 		margin-top: 8px
 	}
 	.contentwrap {
-		padding-top: 144px;
-		padding-bottom: 144px
+		padding-top: 104px;
+		padding-bottom: 164px
 	}
 	.contentbottom {
 		padding-bottom: 144px
@@ -1759,7 +1784,7 @@ li {
 	}
 	.titlemarginbottom {
 	  margin-bottom: 70px;
-	  margin-top: 30px;
+	  //margin-top: 30px;
 	}
 	.zhenghebigfont {
 		font-size: 20px
@@ -2079,6 +2104,15 @@ li {
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
+	.jingbeihaobigfont {
+		font-size: 14px
+	}
+	.footermarginbottom {
+		margin-bottom: 30px
+	}
+	.col-lg-offset {
+		margin-left: 146px
+	}
 	.customerretention {
 		margin-top: 220px !important
 	}
@@ -2431,7 +2465,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px;
 	}
 	.weixinbg {
 		background-image: url(../imgs/weixin94.png);
@@ -2439,7 +2474,8 @@ li {
 	  background-position: center;
 	  height: 94px;
 	  width: 94px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.footerlogobg {
 		margin-top: 8px !important;
@@ -2604,7 +2640,7 @@ li {
 		margin-bottom: 40px
 	}
 	.hangyewrap {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto
 	}
 	.companyimgindex {
@@ -2695,8 +2731,8 @@ li {
 		margin-top: 8px
 	}
 	.contentwrap {
-		padding-top: 144px;
-		padding-bottom: 144px
+		padding-top: 104px;
+		padding-bottom: 164px
 	}
 	.comtenbottom {
 		padding-bottom: 144px
@@ -3027,6 +3063,22 @@ li {
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.ipadprowidth1{
+		margin-left: -23px
+	}
+	.ipadprowidth {
+		margin-left: -20px;
+		width: 433px
+	}
+	.jingbeihaobigfont {
+		font-size: 14px
+	}
+	.footermarginbottom {
+		margin-bottom: 36px
+	}
+	.col-lg-offset {
+		margin-left: 120px
+	}
 	.customerretention {
 		margin-top: 140px !important
 	}
@@ -3381,7 +3433,8 @@ li {
 	  background-position: center;
 	  height: 78px;
 	  width: 78px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.weixinbg {
 		background-image: url(../imgs/weixin78.png);
@@ -3389,7 +3442,8 @@ li {
 	  background-position: center;
 	  height: 78px;
 	  width: 78px;
-	  margin: 0 auto
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.footerlogobg {
 		margin-top:8px !important;
@@ -3554,7 +3608,7 @@ li {
 		border-radius: 24px;
 	}
 	.hangyewrap {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto
 	}
 	.rowmargin {
@@ -3968,6 +4022,32 @@ li {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+/*	.teshujianjiemargintop {
+		margin-top: 22px
+	}*/
+	.ipadmarginleft {
+		margin-left: 25px !important
+	}
+	.ipadprowidth1{
+		margin-left: -10px
+	}
+	.ipadprowidth {
+		padding: 0;
+		margin-left: -34px;
+		width: 283px
+	}
+	.ipadwith {
+		padding-left: 5px
+	}
+	.jingbeihaobigfont {
+		font-size: 12px
+	}
+	.footermarginbottom {
+		margin-bottom: 22px
+	}
+	.col-lg-offset {
+		margin-left: 90px
+	}
 	.customerretention {
 		margin-top: 225px !important
 	}
@@ -4317,20 +4397,22 @@ li {
 		background-image: url(../imgs/lianxiang34.png);
 	}
 	.weibobg {
-		background-image: url(../imgs/weibo88.png);
+		background-image: url(../imgs/weibo.png);
 	  background-size: cover;
 	  background-position: center;
-	  height: 88px;
-	  width: 88px;
-	  margin: 0 auto
+	  height: 78px;
+	  width: 78px;
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.weixinbg {
-		background-image: url(../imgs/weixin88.png);
+		background-image: url(../imgs/weixin78.png);
 	  background-size: cover;
 	  background-position: center;
-	  height: 88px;
-	  width: 88px;
-	  margin: 0 auto
+	  height: 78px;
+	  width: 78px;
+	  margin: 0 auto;
+	  margin-top: 10px
 	}
 	.footerlogobg {
 		margin-top:8px !important;
@@ -4495,7 +4577,7 @@ li {
 		margin: 0 auto
 	}
 	.hangyewrap {
-		width: 75%;
+		width: 100%;
 		margin: 0 auto
 	}
 	.rowmargin {
@@ -4898,6 +4980,13 @@ li {
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.mobiletop {
+		margin-top: 20px;
+		margin-bottom: 15px
+	}
+	.jingbeihaobigfont {
+		font-size: 12px
+	}
 	.customerretention {
 		margin-top: 95px !important
 	}
@@ -5292,6 +5381,16 @@ li {
 	.shoujiapaddingright {
 		padding-right: 40px !important;
 	}
+	.shoujipaddingpicleft {
+
+		text-align: center;
+		padding-left: 20% !important;
+	}
+	.shoujiapaddingpicright {
+
+		text-align: center;
+		padding-right: 20% !important;
+	}
 	.shoujitextcenter {
 		width: 100%;
 		margin: 0 auto;
@@ -5584,14 +5683,7 @@ li {
 		height: 480px;
 	  width: 100%;
 	}
-	.customerretention_sectionone {
-		background-image: url(customerretentionbanner320.jpg);
-	  background-size: cover;
-		background-color: #004dc6;
-	  background-position: center;
-		height: 310px;
-	  width: 100%;
-	}
+
 	.qualitymanagement_sectionone {
 		background-image: url(qualitymanagementbanner320.jpg);
 	  background-size: cover;
