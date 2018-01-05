@@ -4197,6 +4197,10 @@ li {
 		margin-right: 40px;
 		margin-left: 20px
 	}
+	.addresswrap {
+		height: 175px;
+		border-right: 1px solid #bfbfbf
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
 	.intelllineheight_sectiononewidth {
