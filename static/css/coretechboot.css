@@ -6249,4 +6249,13 @@ li {
 	.addresswraplast {
 		margin-top: 20px
 	}
+	.about_ussectiononewidth {
+		width: 96%;
+		margin: 0 auto;	
+	}
+	.about_ussectiontwowidth {
+		width: 83% !important;
+		margin: 0 auto;
+		padding: 0 !important;
+	}
 }
